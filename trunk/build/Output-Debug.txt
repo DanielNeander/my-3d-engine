@@ -1,0 +1,1290 @@
+'AssetViewerD.exe': Loaded 'H:\U2Game\bin\AssetViewerD.exe', Symbols loaded.
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\ntdll.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\kernel32.dll'
+'AssetViewerD.exe': Loaded 'H:\U2Game\bin\U2LibD.dll', Symbols loaded.
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\user32.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\gdi32.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\WinSxS\x86_Microsoft.VC90.DebugCRT_1fc8b3b9a1e18e3b_9.0.30729.1_x-ww_f863c71f\msvcp90d.dll', Symbols loaded.
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\WinSxS\x86_Microsoft.VC90.DebugCRT_1fc8b3b9a1e18e3b_9.0.30729.1_x-ww_f863c71f\msvcr90d.dll', Symbols loaded.
+'AssetViewerD.exe': Loaded 'H:\U2Game\bin\U2MiscD.dll', Symbols loaded.
+'AssetViewerD.exe': Loaded 'H:\U2Game\bin\lua51.dll', Binary was not built with debug information.
+'AssetViewerD.exe': Loaded 'H:\U2Game\bin\lua5.1.dll', Binary was not built with debug information.
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.3053_x-ww_b80fa8ca\msvcr80.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\msvcrt.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\comdlg32.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\advapi32.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\rpcrt4.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\secur32.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\comctl32.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\shell32.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\shlwapi.dll'
+'AssetViewerD.exe': Loaded 'H:\U2Game\bin\U2_3DD.dll', Symbols loaded.
+'AssetViewerD.exe': Loaded 'H:\U2Game\bin\D3dx9d_39.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\d3d9.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\d3d8thk.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\version.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\winmm.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\dinput8.dll'
+'AssetViewerD.exe': Loaded 'H:\U2Game\bin\U2ApplicationD.dll', Symbols loaded.
+'AssetViewerD.exe': Loaded 'H:\U2Game\bin\OIS_d.dll', Binary was not built with debug information.
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\imagehlp.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\imm32.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\lpk.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\usp10.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\uxtheme.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\MSCTF.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\MSCTFIME.IME'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\ole32.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\imekr61.ime'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\d3d9d.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\d3dx9d_33.dll'
+D3D9 Helper: Enhanced D3DDebugging disabled; Application was not compiled with D3D_DEBUG_INFO
+Create D3D Success...
+Direct3D9: (INFO) :======================= Hal HWVP Pure device selected
+
+Create D3D Device Success...D3DX: Unicode support: 1
+
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\d3dx9_31.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\oleaut32.dll'
+Direct3D9: (ERROR) :************************************************************
+Direct3D9: (ERROR) :ASSERTION FAILED! File e:\dxsdk\wggt_apr07\private\multimedia\directx\dxg\d3d9\fw\d3dobj.cpp Line 63: m_cRef > 0
+Direct3D9: (ERROR) :************************************************************
+Direct3D9: (ERROR) :All user created stateblocks must be freed before Reset can succeed. Reset Fails.
+Direct3D9: (ERROR) :Reset failed and Reset/TestCooperativeLevel/Release are the only legal APIs to be called subsequently
+2Dx9Renderer::Recreate - could not  reset originla present parameters'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\hid.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\setupapi.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\wintrust.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\crypt32.dll'
+'AssetViewerD.exe': Loaded 'D:\WINDOWXP\system32\msasn1.dll'
+D3DX: (INFO) Using AMD optimizations
+Direct3D9: (ERROR) :************************************************************
+Direct3D9: (ERROR) :ASSERTION FAILED! File e:\dxsdk\wggt_apr07\private\multimedia\directx\dxg\d3d9\fw\d3dobj.cpp Line 63: m_cRef > 0
+Direct3D9: (ERROR) :************************************************************
+Direct3D9: (ERROR) :All user created stateblocks must be freed before Reset can succeed. Reset Fails.
+Direct3D9: (ERROR) :Reset failed and Reset/TestCooperativeLevel/Release are the only legal APIs to be called subsequently
+Direct3D9: (ERROR) :The following D3DPOOL_DEFAULT surfaces/buffers/textures still exist
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03eb6698 lAllocID=18732 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03eb64b8 lAllocID=18730 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03eb6010 lAllocID=18725 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efce58 lAllocID=18723 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efc9b0 lAllocID=18718 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efc7d0 lAllocID=18716 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efc328 lAllocID=18711 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efc148 lAllocID=18709 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efbca0 lAllocID=18704 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efbac0 lAllocID=18702 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efb618 lAllocID=18697 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efb438 lAllocID=18695 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efaf90 lAllocID=18690 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efadb0 lAllocID=18688 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efa908 lAllocID=18683 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efa728 lAllocID=18681 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed83e8 lAllocID=18675 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed8060 lAllocID=18671 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed7cd8 lAllocID=18667 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed7950 lAllocID=18663 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed75c8 lAllocID=18659 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed7240 lAllocID=18655 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed6f60 lAllocID=18651 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 02b1a760 lAllocID=18647 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 02b1a3d8 lAllocID=18643 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 02b1a050 lAllocID=18639 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 02ba8f28 lAllocID=18635 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 0142c5f8 lAllocID=18631 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03eaff48 lAllocID=18627 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03eb2fb8 lAllocID=18623 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 02330900 lAllocID=276 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 00AE512D
+Direct3D9: (ERROR) :          [9] : Address 00AE9F0D
+Direct3D9: (ERROR) :          [10] : Address 00AEA5C2
+Direct3D9: (ERROR) :          [11] : Address 006EB97B
+Direct3D9: (ERROR) :          [12] : Address 00E5A9EF
+Direct3D9: (ERROR) :          [13] : Address 004435FC
+Direct3D9: (ERROR) :          [14] : Address 00E550CF
+Direct3D9: (ERROR) :          [15] : Address 00E591CB
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 02330710 lAllocID=274 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00AE5098
+Direct3D9: (ERROR) :          [9] : Address 00AE9F0D
+Direct3D9: (ERROR) :          [10] : Address 00AEA5C2
+Direct3D9: (ERROR) :          [11] : Address 006EB97B
+Direct3D9: (ERROR) :          [12] : Address 00E5A9EF
+Direct3D9: (ERROR) :          [13] : Address 004435FC
+Direct3D9: (ERROR) :          [14] : Address 00E550CF
+Direct3D9: (ERROR) :          [15] : Address 00E591CB
+Direct3D9: (ERROR) :All user created D3DPOOL_DEFAULT surfaces must be freed before Reset can succeed. Reset Fails.
+Direct3D9: (ERROR) :Reset failed and Reset/TestCooperativeLevel/Release are the only legal APIs to be called subsequently
+2Dx9Renderer::Recreate Failed to Reset Device - try to reset original present parametersDirect3D9: (ERROR) :The following D3DPOOL_DEFAULT surfaces/buffers/textures still exist
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03eb6698 lAllocID=18732 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03eb64b8 lAllocID=18730 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03eb6010 lAllocID=18725 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efce58 lAllocID=18723 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efc9b0 lAllocID=18718 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efc7d0 lAllocID=18716 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efc328 lAllocID=18711 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efc148 lAllocID=18709 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efbca0 lAllocID=18704 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efbac0 lAllocID=18702 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efb618 lAllocID=18697 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efb438 lAllocID=18695 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efaf90 lAllocID=18690 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efadb0 lAllocID=18688 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efa908 lAllocID=18683 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00726D4D
+Direct3D9: (ERROR) :          [9] : Address 0073A177
+Direct3D9: (ERROR) :          [10] : Address 0073A600
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 03efa728 lAllocID=18681 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 0072B0DD
+Direct3D9: (ERROR) :          [9] : Address 00739CFA
+Direct3D9: (ERROR) :          [10] : Address 0073A543
+Direct3D9: (ERROR) :          [11] : Address 0070EE1F
+Direct3D9: (ERROR) :          [12] : Address 00719818
+Direct3D9: (ERROR) :          [13] : Address 00719353
+Direct3D9: (ERROR) :          [14] : Address 00717D77
+Direct3D9: (ERROR) :          [15] : Address 00707834
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed83e8 lAllocID=18675 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed8060 lAllocID=18671 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed7cd8 lAllocID=18667 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed7950 lAllocID=18663 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed75c8 lAllocID=18659 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed7240 lAllocID=18655 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03ed6f60 lAllocID=18651 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 02b1a760 lAllocID=18647 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 02b1a3d8 lAllocID=18643 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 02b1a050 lAllocID=18639 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 02ba8f28 lAllocID=18635 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 0142c5f8 lAllocID=18631 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03eaff48 lAllocID=18627 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_TEXTURE
+Direct3D9: (ERROR) :      Memory Address: 03eb2fb8 lAllocID=18623 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C2FAF7
+Direct3D9: (ERROR) :          [3] : Address 01C2F4A2
+Direct3D9: (ERROR) :          [4] : Address 01C44A40
+Direct3D9: (ERROR) :          [5] : Address 0075DA45
+Direct3D9: (ERROR) :          [6] : Address 0075D54C
+Direct3D9: (ERROR) :          [7] : Address 0071709D
+Direct3D9: (ERROR) :          [8] : Address 0071E0DA
+Direct3D9: (ERROR) :          [9] : Address 007189B1
+Direct3D9: (ERROR) :          [10] : Address 00717AC7
+Direct3D9: (ERROR) :          [11] : Address 00707834
+Direct3D9: (ERROR) :          [12] : Address 007010C3
+Direct3D9: (ERROR) :          [13] : Address 00700954
+Direct3D9: (ERROR) :          [14] : Address 0043F910
+Direct3D9: (ERROR) :          [15] : Address 0043F495
+Direct3D9: (ERROR) :  D3DRTYPE_VERTEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 02330900 lAllocID=276 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C5B054
+Direct3D9: (ERROR) :          [4] : Address 01C5CCD5
+Direct3D9: (ERROR) :          [5] : Address 01C5AC76
+Direct3D9: (ERROR) :          [6] : Address 01C5AACD
+Direct3D9: (ERROR) :          [7] : Address 01C45692
+Direct3D9: (ERROR) :          [8] : Address 00AE512D
+Direct3D9: (ERROR) :          [9] : Address 00AE9F0D
+Direct3D9: (ERROR) :          [10] : Address 00AEA5C2
+Direct3D9: (ERROR) :          [11] : Address 006EB97B
+Direct3D9: (ERROR) :          [12] : Address 00E5A9EF
+Direct3D9: (ERROR) :          [13] : Address 004435FC
+Direct3D9: (ERROR) :          [14] : Address 00E550CF
+Direct3D9: (ERROR) :          [15] : Address 00E591CB
+Direct3D9: (ERROR) :  D3DRTYPE_INDEXBUFFER
+Direct3D9: (ERROR) :      Memory Address: 02330710 lAllocID=274 dwSize=00000050, (pid=00000d88)
+Direct3D9: (ERROR) :        Stack Back Trace
+Direct3D9: (ERROR) :          [0] : Address 01C17CE6
+Direct3D9: (ERROR) :          [1] : Address 01CEBBC3
+Direct3D9: (ERROR) :          [2] : Address 01C66EAF
+Direct3D9: (ERROR) :          [3] : Address 01C56D54
+Direct3D9: (ERROR) :          [4] : Address 01C58945
+Direct3D9: (ERROR) :          [5] : Address 01C56976
+Direct3D9: (ERROR) :          [6] : Address 01C5680F
+Direct3D9: (ERROR) :          [7] : Address 01C45932
+Direct3D9: (ERROR) :          [8] : Address 00AE5098
+Direct3D9: (ERROR) :          [9] : Address 00AE9F0D
+Direct3D9: (ERROR) :          [10] : Address 00AEA5C2
+Direct3D9: (ERROR) :          [11] : Address 006EB97B
+Direct3D9: (ERROR) :          [12] : Address 00E5A9EF
+Direct3D9: (ERROR) :          [13] : Address 004435FC
+Direct3D9: (ERROR) :          [14] : Address 00E550CF
+Direct3D9: (ERROR) :          [15] : Address 00E591CB
+Direct3D9: (ERROR) :All user created D3DPOOL_DEFAULT surfaces must be freed before Reset can succeed. Reset Fails.
+Direct3D9: (ERROR) :Reset failed and Reset/TestCooperativeLevel/Release are the only legal APIs to be called subsequently
+First-chance exception at 0x007103e9 (U2_3DD.dll) in AssetViewerD.exe: 0xC00000FD: Stack overflow.
+Unhandled exception at 0x007103e9 (U2_3DD.dll) in AssetViewerD.exe: 0xC00000FD: Stack overflow.
+The program '[3464] AssetViewerD.exe: Native' has exited with code 0 (0x0).
