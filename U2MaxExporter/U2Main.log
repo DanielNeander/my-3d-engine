@@ -1,0 +1,41 @@
+- 22:41:15.000 DEBUG: Start to build bone list.
+- 22:41:15.000 DEBUG: Nodes in Array : Scene Root
+- 22:41:15.000 DEBUG: Nodes in Array : lightmapping_s_00
+- 22:41:15.000 DEBUG: Nodes in Array : lightmapping_s_01
+- 22:41:15.000 DEBUG: Nodes in Array : lightmapping_s_02
+- 22:41:15.000 DEBUG: Nodes in Array : lightmapping_s_03
+- 22:41:15.000 DEBUG: Nodes in Array : lightmapping_s_04
+- 22:41:15.000 DEBUG: Nodes in Array : lightmapping_s_05
+- 22:41:15.000 DEBUG: Nodes in Array : lightmapping_s_06
+- 22:41:15.000 DEBUG: Actally used number of bones : 0
+- 22:41:15.000 DEBUG: The scene has no bones.
+- 22:41:15.016 DEBUG: Export Node Name : Scene Root
+- 22:41:15.016 DEBUG: Num Child : 7
+- 22:41:15.016 DEBUG:  Export Node Child Name : lightmapping_s_00
+- 22:41:15.016 DEBUG: Export Node Name : lightmapping_s_00
+- 22:41:15.016 DEBUG: Num Child : 0
+- 22:41:15.094 DEBUG: Number of vertices of : lightmapping_s_00 node are 2871
+- 22:41:15.094 DEBUG:  Export Node Child Name : lightmapping_s_01
+- 22:41:15.094 DEBUG: Export Node Name : lightmapping_s_01
+- 22:41:15.094 DEBUG: Num Child : 0
+- 22:41:15.110 DEBUG: Number of vertices of : lightmapping_s_01 node are 312
+- 22:41:15.110 DEBUG:  Export Node Child Name : lightmapping_s_02
+- 22:41:15.110 DEBUG: Export Node Name : lightmapping_s_02
+- 22:41:15.110 DEBUG: Num Child : 0
+- 22:41:15.125 DEBUG: Number of vertices of : lightmapping_s_02 node are 294
+- 22:41:15.125 DEBUG:  Export Node Child Name : lightmapping_s_03
+- 22:41:15.125 DEBUG: Export Node Name : lightmapping_s_03
+- 22:41:15.125 DEBUG: Num Child : 0
+- 22:41:15.282 DEBUG: Number of vertices of : lightmapping_s_03 node are 4686
+- 22:41:15.282 DEBUG:  Export Node Child Name : lightmapping_s_04
+- 22:41:15.282 DEBUG: Export Node Name : lightmapping_s_04
+- 22:41:15.282 DEBUG: Num Child : 0
+- 22:41:15.297 DEBUG: Number of vertices of : lightmapping_s_04 node are 192
+- 22:41:15.297 DEBUG:  Export Node Child Name : lightmapping_s_05
+- 22:41:15.297 DEBUG: Export Node Name : lightmapping_s_05
+- 22:41:15.297 DEBUG: Num Child : 0
+- 22:41:15.297 DEBUG: Number of vertices of : lightmapping_s_05 node are 15
+- 22:41:15.297 DEBUG:  Export Node Child Name : lightmapping_s_06
+- 22:41:15.297 DEBUG: Export Node Name : lightmapping_s_06
+- 22:41:15.297 DEBUG: Num Child : 0
+- 22:41:15.297 DEBUG: Number of vertices of : lightmapping_s_06 node are 531
