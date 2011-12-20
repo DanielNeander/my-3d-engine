@@ -1,0 +1,504 @@
+- 17:45:27.000 DEBUG: E:c++GameData
+- 17:47:10.000 DEBUG: E:c++GameData	exturegravel.bmp
+- 17:52:48.000 DEBUG: E:		c++GameData	exturegravel	.bmp
+- 17:53:32.000 DEBUG: E:	\c++\Game\Data\texture\	gravel	.bmp
+- 17:54:13.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 17:57:00.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 17:57:51.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:00:37.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:00:37.000 DEBUG: E:	/c++/game/data/shader/	Default	cg
+- 18:01:14.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:01:14.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:03:30.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:03:30.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:03:48.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:03:48.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:03:48.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:07:39.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:07:39.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:07:39.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:07:39.000 DEBUG: e:\c++\Game\U2UnitTestDebug
+- 18:07:52.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:07:52.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:07:52.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:08:26.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:08:26.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:08:26.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:09:06.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:09:06.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:09:06.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:10:14.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:10:14.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:10:14.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:14:15.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:14:15.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:14:15.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:14:15.000 DEBUG: e:\c++\Game\U2UnitTest\Debug
+- 18:16:59.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:16:59.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:16:59.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:16:59.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 18:16:59.000 DEBUG: e:\c++\Game\U2UnitTest\Debug
+- 18:18:34.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:18:34.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:18:34.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:18:34.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 18:18:34.000 DEBUG: E:/c++/Game/Data\shadershaderE:/c++/Game/Data
+- 18:18:34.000 DEBUG: E:/c++/Game/Data\shader
+- 18:33:51.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:33:51.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:33:51.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:33:51.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 18:33:51.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 18:33:51.000 DEBUG: E:\c++\Game\Data\shader
+- 18:33:51.000 DEBUG: FileSearch E:\c++\Game\Data\texure\redsky.bmp
+- 18:45:48.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:45:48.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:45:48.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:45:48.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 18:45:48.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 18:45:48.000 DEBUG: E:\c++\Game\Data\shader
+- 18:46:15.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:46:15.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:46:15.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:46:17.031 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 18:46:17.031 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 18:46:17.031 DEBUG: E:\c++\Game\Data\shader
+- 18:46:51.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:46:51.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:46:51.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:46:51.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 18:46:51.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 18:46:51.000 DEBUG: E:\c++\Game\Data\shader
+- 18:48:10.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:48:10.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:48:10.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:48:10.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 18:48:10.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 18:48:10.000 DEBUG: E:\c++\Game\Data\shader
+- 18:51:22.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:51:22.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:51:22.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:51:22.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 18:51:22.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 18:51:22.000 DEBUG: E:\c++\Game\Data\shader
+- 18:52:26.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 18:52:26.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 18:52:26.000 DEBUG: e:\c++\Game\U2UnitTest
+- 18:52:26.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 18:52:26.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 18:52:26.000 DEBUG: E:\c++\Game\Data\shader
+- 19:02:53.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 19:02:53.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 19:02:53.000 DEBUG: e:\c++\Game\U2UnitTest
+- 19:02:53.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 19:02:53.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 19:02:53.000 DEBUG: E:\c++\Game\Data\shader
+- 03:50:11.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 03:50:11.031 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 03:50:11.046 DEBUG: e:\c++\Game\U2UnitTest
+- 03:50:11.046 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 03:50:11.046 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 03:50:11.046 DEBUG: E:\c++\Game\Data\shader
+- 03:54:09.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 03:54:09.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 03:54:09.000 DEBUG: e:\c++\Game\U2UnitTest
+- 03:54:09.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 03:54:09.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 03:54:09.000 DEBUG: E:\c++\Game\Data\shader
+- 03:57:33.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 03:57:33.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 03:57:33.000 DEBUG: e:\c++\Game\U2UnitTest
+- 03:57:33.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 03:57:33.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 03:57:33.000 DEBUG: E:\c++\Game\Data\shader
+- 04:00:14.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:00:14.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:00:14.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:00:14.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:00:14.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:00:14.000 DEBUG: E:\c++\Game\Data\shader
+- 04:04:10.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:04:10.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:04:10.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:04:10.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:04:10.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:04:10.000 DEBUG: E:\c++\Game\Data\shader
+- 04:05:11.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:05:11.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:05:11.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:05:11.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:05:11.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:05:11.000 DEBUG: E:\c++\Game\Data\shader
+- 04:10:37.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:10:37.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:10:37.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:10:37.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:10:37.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:10:37.000 DEBUG: E:\c++\Game\Data\shader
+- 04:10:59.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:10:59.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:10:59.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:10:59.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:10:59.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:10:59.000 DEBUG: E:\c++\Game\Data\shader
+- 04:13:25.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:13:25.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:13:25.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:13:25.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:13:25.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:13:25.000 DEBUG: E:\c++\Game\Data\shader
+- 04:13:47.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:13:47.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:13:47.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:13:47.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:13:47.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:13:47.000 DEBUG: E:\c++\Game\Data\shader
+- 04:17:03.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:17:03.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:17:03.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:17:03.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:17:03.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:17:03.000 DEBUG: E:\c++\Game\Data\shader
+- 04:18:37.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:18:37.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:18:37.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:18:37.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:18:37.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:18:37.000 DEBUG: E:\c++\Game\Data\shader
+- 04:19:29.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:19:29.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:19:29.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:19:29.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:19:29.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:19:29.000 DEBUG: E:\c++\Game\Data\shader
+- 04:19:52.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:19:52.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:19:52.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:19:52.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:19:52.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:19:52.000 DEBUG: E:\c++\Game\Data\shader
+- 04:20:41.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:20:41.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:20:41.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:20:41.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:20:41.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:20:41.000 DEBUG: E:\c++\Game\Data\shader
+- 04:23:23.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 04:23:23.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 04:23:23.000 DEBUG: e:\c++\Game\U2UnitTest
+- 04:23:23.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 04:23:23.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 04:23:23.000 DEBUG: E:\c++\Game\Data\shader
+- 22:45:55.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:45:55.015 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:45:55.015 DEBUG: e:\c++\Game\U2UnitTest
+- 22:45:55.015 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:45:55.015 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:45:55.015 DEBUG: E:\c++\Game\Data\shader
+- 22:46:31.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:46:31.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:46:31.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:46:31.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:46:31.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:46:31.000 DEBUG: E:\c++\Game\Data\shader
+- 22:47:04.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:47:04.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:47:04.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:47:04.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:47:04.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:47:04.000 DEBUG: E:\c++\Game\Data\shader
+- 22:49:08.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:49:08.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:49:08.015 DEBUG: e:\c++\Game\U2UnitTest
+- 22:49:08.015 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:49:08.015 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:49:08.015 DEBUG: E:\c++\Game\Data\shader
+- 22:53:49.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:53:49.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:53:49.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:53:49.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:53:49.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:53:49.000 DEBUG: E:\c++\Game\Data\shader
+- 22:57:13.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:57:13.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:57:13.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:57:13.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:57:13.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:57:13.000 DEBUG: E:\c++\Game\Data\shader
+- 22:58:07.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:58:07.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:58:07.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:58:07.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:58:07.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:58:07.000 DEBUG: E:\c++\Game\Data\shader
+- 23:11:36.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:11:36.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:11:36.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:11:36.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:11:36.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:11:36.000 DEBUG: E:\c++\Game\Data\shader
+- 23:19:18.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:19:18.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:19:18.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:19:18.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:19:18.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:19:18.000 DEBUG: E:\c++\Game\Data\shader
+- 23:19:57.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:19:57.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:19:57.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:19:57.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:19:57.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:19:57.000 DEBUG: E:\c++\Game\Data\shader
+- 23:24:52.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:24:52.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:24:52.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:24:52.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:24:52.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:24:52.000 DEBUG: E:\c++\Game\Data\shader
+- 23:25:37.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:25:37.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:25:37.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:25:37.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:25:37.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:25:37.000 DEBUG: E:\c++\Game\Data\shader
+- 23:25:59.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:25:59.031 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:25:59.031 DEBUG: e:\c++\Game\U2UnitTest
+- 23:25:59.031 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:25:59.031 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:25:59.031 DEBUG: E:\c++\Game\Data\shader
+- 23:26:41.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:26:41.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:26:41.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:26:41.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:26:41.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:26:41.000 DEBUG: E:\c++\Game\Data\shader
+- 23:29:38.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:29:38.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:29:38.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:29:38.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:29:38.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:29:38.000 DEBUG: E:\c++\Game\Data\shader
+- 23:32:46.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:32:46.015 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:32:46.015 DEBUG: e:\c++\Game\U2UnitTest
+- 23:32:46.015 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:32:46.015 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:32:46.015 DEBUG: E:\c++\Game\Data\shader
+- 23:34:38.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:34:38.015 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:34:38.015 DEBUG: e:\c++\Game\U2UnitTest
+- 23:34:38.015 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:34:38.015 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:34:38.015 DEBUG: E:\c++\Game\Data\shader
+- 23:35:44.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:35:44.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:35:44.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:35:44.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:35:44.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:35:44.000 DEBUG: E:\c++\Game\Data\shader
+- 23:36:34.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:36:34.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:36:34.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:36:34.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:36:34.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:36:34.000 DEBUG: E:\c++\Game\Data\shader
+- 23:40:05.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:40:05.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:40:05.015 DEBUG: e:\c++\Game\U2UnitTest
+- 23:40:05.015 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:40:05.015 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:40:05.015 DEBUG: E:\c++\Game\Data\shader
+- 22:52:35.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:52:35.015 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:52:35.015 DEBUG: e:\c++\Game\U2UnitTest
+- 22:52:35.015 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:52:35.015 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:52:35.015 DEBUG: E:\c++\Game\Data\shader
+- 22:53:11.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:53:11.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:53:11.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:53:11.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:53:11.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:53:11.000 DEBUG: E:\c++\Game\Data\shader
+- 22:53:29.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:53:29.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:53:29.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:53:29.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:53:29.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:53:29.000 DEBUG: E:\c++\Game\Data\shader
+- 22:55:13.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:55:13.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:55:13.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:55:13.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:55:13.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:55:13.000 DEBUG: E:\c++\Game\Data\shader
+- 22:55:49.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:55:49.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:55:49.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:55:49.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:55:49.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:55:49.000 DEBUG: E:\c++\Game\Data\shader
+- 22:56:12.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:56:12.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:56:12.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:56:12.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:56:12.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:56:12.000 DEBUG: E:\c++\Game\Data\shader
+- 22:57:35.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:57:35.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:57:35.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:57:35.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:57:35.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:57:35.000 DEBUG: E:\c++\Game\Data\shader
+- 22:58:22.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:58:22.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:58:22.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:58:22.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:58:22.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:58:22.000 DEBUG: E:\c++\Game\Data\shader
+- 22:59:42.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 22:59:42.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 22:59:42.000 DEBUG: e:\c++\Game\U2UnitTest
+- 22:59:42.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 22:59:42.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 22:59:42.000 DEBUG: E:\c++\Game\Data\shader
+- 23:05:12.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:05:12.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:05:12.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:05:12.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:05:12.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:05:12.016 DEBUG: E:\c++\Game\Data\shader
+- 23:07:03.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:07:03.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:07:03.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:07:03.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:07:03.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:07:03.000 DEBUG: E:\c++\Game\Data\shader
+- 23:08:34.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 23:08:34.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 23:08:34.000 DEBUG: e:\c++\Game\U2UnitTest
+- 23:08:34.000 DEBUG: e:\c++\Game\U2UnitTest\DebugDebuge:\c++\Game\U2UnitTest
+- 23:08:34.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 23:08:34.000 DEBUG: E:\c++\Game\Data\shader
+- 15:26:57.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 15:26:57.047 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 15:26:57.047 DEBUG: h:\U2Game\U2UnitTest
+- 15:26:57.047 DEBUG: h:\U2Game\U2UnitTest\DebugDebugh:\U2Game\U2UnitTest
+- 15:26:57.047 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 15:26:57.047 DEBUG: E:\c++\Game\Data\shader
+- 15:27:03.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 15:27:03.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 15:27:03.000 DEBUG: h:\U2Game\U2UnitTest
+- 15:27:03.000 DEBUG: h:\U2Game\U2UnitTest\DebugDebugh:\U2Game\U2UnitTest
+- 15:27:03.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 15:27:03.000 DEBUG: E:\c++\Game\Data\shader
+- 06:17:28.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 06:17:28.016 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 06:17:28.016 DEBUG: e:\U2Game\U2UnitTest
+- 06:17:28.016 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 06:17:28.016 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 06:17:28.016 DEBUG: E:\c++\Game\Data\shader
+- 07:33:03.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:33:03.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:33:03.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:33:03.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:33:03.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:33:03.000 DEBUG: E:\c++\Game\Data\shader
+- 07:34:30.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:34:30.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:34:30.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:34:30.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:34:30.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:34:30.000 DEBUG: E:\c++\Game\Data\shader
+- 07:36:20.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:36:20.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:36:20.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:36:20.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:36:20.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:36:20.000 DEBUG: E:\c++\Game\Data\shader
+- 07:36:34.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:36:34.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:36:34.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:36:34.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:36:34.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:36:34.000 DEBUG: E:\c++\Game\Data\shader
+- 07:36:49.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:36:49.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:36:49.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:36:49.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:36:49.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:36:49.000 DEBUG: E:\c++\Game\Data\shader
+- 07:42:53.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:42:53.047 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:42:53.047 DEBUG: e:\U2Game\U2UnitTest
+- 07:42:53.047 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:42:53.047 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:42:53.047 DEBUG: E:\c++\Game\Data\shader
+- 07:43:05.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:43:05.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:43:05.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:43:05.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:43:05.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:43:05.000 DEBUG: E:\c++\Game\Data\shader
+- 07:43:48.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:43:48.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:43:48.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:43:48.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:43:48.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:43:48.000 DEBUG: E:\c++\Game\Data\shader
+- 07:45:00.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:45:00.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:45:00.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:45:00.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:45:00.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:45:00.000 DEBUG: E:\c++\Game\Data\shader
+- 07:45:17.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:45:17.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:45:17.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:45:17.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:45:17.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:45:17.000 DEBUG: E:\c++\Game\Data\shader
+- 07:45:26.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:45:26.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:45:26.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:45:26.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:45:26.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:45:26.000 DEBUG: E:\c++\Game\Data\shader
+- 07:45:47.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:45:47.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:45:47.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:45:47.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:45:47.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:45:47.000 DEBUG: E:\c++\Game\Data\shader
+- 07:48:11.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:48:11.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:48:11.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:48:11.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:48:11.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:48:11.000 DEBUG: E:\c++\Game\Data\shader
+- 07:50:39.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:50:39.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:50:39.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:50:39.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:50:39.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:50:39.000 DEBUG: E:\c++\Game\Data\shader
+- 07:50:50.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:50:50.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:50:50.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:50:50.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:50:50.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:50:50.000 DEBUG: E:\c++\Game\Data\shader
+- 07:51:26.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:51:26.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:51:26.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:51:26.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:51:26.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:51:26.000 DEBUG: E:\c++\Game\Data\shader
+- 07:59:37.000 DEBUG: E:	/c++/Game/Data/texture/	gravel	.bmp
+- 07:59:37.000 DEBUG: E:	/c++/game/data/shader/	Default	cgE:/c++/game/data/shader/Default.cg
+- 07:59:37.000 DEBUG: e:\U2Game\U2UnitTest
+- 07:59:37.000 DEBUG: e:\U2Game\U2UnitTest\DebugDebuge:\U2Game\U2UnitTest
+- 07:59:37.000 DEBUG: E:\c++\Game\Data\shadershaderE:\c++\Game\Data
+- 07:59:37.000 DEBUG: E:\c++\Game\Data\shader
