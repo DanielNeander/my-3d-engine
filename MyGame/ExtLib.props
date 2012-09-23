@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(WindowsSdkDir)\include\;G:\boost\boost_1_42;H:\hk610r1\Source;..\extlib;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LibraryPath>G:\boost\boost_1_42\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalLibraryDirectories>..\extlib\cppunit-1.2.1\lib;..\bin\;..\bin\hklibs;..\extlib\wxWidgets-2.8.12\lib;..\extlib\wxWidgets-2.8.12\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw28ud_core.lib;wxbase28ud.lib;comctl32.lib;rpcrt4.lib;winmm.lib;advapi32.lib;wsock32.lib;libmpqDebug.lib;bzip2Debug.lib;cppunitd.lib;BugslayerUtil.lib;hkgCommon.lib;hkVisualize.lib;hkbase.lib;hkCompat.lib;hkSceneData.lib;hkGeometryUtilities.lib;BugSlayerUtil.Lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\extlib\;..\extlib\include;..\extlib\wxWidgets-2.8.12\include;..\extlib\wxWidgets-2.8.12\include\msvc;..\extlib\cppunit-1.2.1\include;..\extlib\hk610r1\source;..\extlib\hk610r1\Demo</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
