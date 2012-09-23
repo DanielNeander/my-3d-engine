@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Doom3">
+      <UniqueIdentifier>{cb767b8b-2437-4331-86cd-ebcc21641c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{b176b40e-4b06-4338-816f-fe21d3335702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{963de590-c195-40df-b417-b48ccc1b80c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Havok">
+      <UniqueIdentifier>{48359f5c-f799-4351-bd34-c503ec22cbea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{b0b17756-55fd-4b43-b7c9-6a726bda63ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests">
+      <UniqueIdentifier>{f50cf381-28b1-4edb-b879-917593e36987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{c44a5a64-27e8-4e00-b45c-25b264db2223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{ff0577b8-4000-4291-8bbb-328afbdfe343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{e6539052-e720-4b75-a12e-ace36ce1b300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{c28ebaa3-052b-4809-bc42-f996035580fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\PostProcess">
+      <UniqueIdentifier>{20765285-6769-473d-b5a8-1cc8e97a4728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Shadow">
+      <UniqueIdentifier>{f1c034ae-9827-4493-a8de-a0f5248effa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{c72032ef-978b-4064-b92f-99bf1ed71610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{bc8df38a-3327-4f10-8440-d3ffda1fda42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Effect">
+      <UniqueIdentifier>{67937007-173c-4641-822e-ab26ca59ad42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scene">
+      <UniqueIdentifier>{2377638d-7a6c-4970-bccc-7c6813acc7ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Resource">
+      <UniqueIdentifier>{00ebf772-8096-4c33-80b4-60bf0c1b4a9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <None Include="Renderer\noFXEffect.inl">
+      <Filter>Renderer</Filter>
+    </None>
+    <None Include="animation\Rig\noaPose.inl">
+      <Filter>Animation</Filter>
+    </None>
+    <None Include="Core\U2WinFile.inl">
+      <Filter>Core</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmptyProject10.cpp" />
+    <ClCompile Include="EmptyProject9.cpp" />
+    <ClCompile Include="Font\GameFont.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\GameFramework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Havok\hkTextDisplay.cpp">
+      <Filter>Havok</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\FileSystem.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\GameConsole.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\GameLog.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests\hkgTest.h">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests\hkTest.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests\hkMathTest.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests\hkgTest.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ModelPSK.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Model_M2.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\noMesh.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\noD3DResources.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\noFXEffect.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\GBufferSingle.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\GBuffer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\GBufferMRT.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Quaternion.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\noAssetConverter_M2.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\noBlendMatrixSetDX9.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\noRenderSystemDX9.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\noAssetConverter.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Rig\noaPose.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\mpq_libmpq.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\M2Loader.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\LocalFrame.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\Playback\control\noaDefaultAnimControl.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\Motion\noaDefaultAnimReferenceFrame.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\Playback\control\noaanimcontrol.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\U2WinFile.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\util.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\Interleaved\noaInterleavedanimation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Model_M2Format.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Camera.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Viewport3D.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Color.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ParticleSystem.cpp">
+      <Filter>Renderer\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Distribution.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ParticleEvent.cpp">
+      <Filter>Renderer\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ParticleEmitterInstances.cpp">
+      <Filter>Renderer\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ParticleBeamEmitterInstance.cpp">
+      <Filter>Renderer\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderStats.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\EffectStateManager.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\VertexFormat.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\M2Particle.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\WIN32Util.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\U2File.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\noD3DXEffectShaderInclude.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Resource\VetexDeclBundle.cpp">
+      <Filter>Renderer\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Resource\TextureBundle.cpp">
+      <Filter>Renderer\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Resource\MeshBundle.cpp">
+      <Filter>Renderer\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\StringHelper.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="EmptyProject10.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="Framework\Common.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FileSystem.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Font\GameFont.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\GameFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Havok\hkTextDisplay.h">
+      <Filter>Havok</Filter>
+    </ClInclude>
+    <ClInclude Include="Havok\Havok.h">
+      <Filter>Havok</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\GameConsole.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Camera.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Model.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GameLog.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests\hkMathTest.h">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests\hkTest.h">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Types.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\DemoFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ModelPSK.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\noD3DResources.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\noMesh.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\noFXEffect.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GBufferMRT.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GBufferSingle.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GBuffer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\noScene.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\noNode.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Model_M2Format.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Model_M2.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SysCommon.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\noAssetConverter.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\noBlendMatrixSet.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\noBlendMatrixSetDX9.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\noRenderSystemDX9.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\noMeshBinding.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\noaAnimation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\noaAnimBinding.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\Rig\noaBone.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\Rig\noaPose.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\Rig\noaSkeleton.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\Playback\noaAnimSkeleton.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\Playback\control\noaAnimControl.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\Playback\control\noaDefaultAnimControl.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\motion\noaAnimatedRefFrame.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\mpq.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\mpq_libmpq.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\M2Loader.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\noLoader.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Model_M2Interpolator.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\QTransform.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Rig\noaSkeletonUtils.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\LocalFrame.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\Motion\noaDefaultAnimReferenceFrame.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\U2FileTime_Win32.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\U2WinFile.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\util.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Effect\ParticleSystem.h">
+      <Filter>Renderer\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="animation\Interleaved\noaInterleavedAnimation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Viewport3D.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FreeListArray.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ParticleUtil.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Color.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ParticleEmitterInstances.h">
+      <Filter>Renderer\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Templates.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Distribution.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\noObject.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ParticleUtil.h">
+      <Filter>Renderer\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Scene.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Angles.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\EffectStateManager.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderStats.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\VertexFormat.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\M2Particle.h">
+      <Filter>Renderer\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Win32Util.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\U2File.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\noD3DXEffectShaderInclude.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Singleton.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Resource\VertexDeclBundle.h">
+      <Filter>Renderer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Resource\ResourceId.h">
+      <Filter>Renderer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Resource\ResourceBundle.h">
+      <Filter>Renderer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Resource\Proxies.h">
+      <Filter>Renderer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Resource\TextureBundle.h">
+      <Filter>Renderer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Resource\StorageResourceBundle.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Resource\MeshBundle.h">
+      <Filter>Renderer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\StringHelper.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
