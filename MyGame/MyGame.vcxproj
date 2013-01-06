@@ -92,9 +92,9 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
-    <ExecutablePath>G:\Microsoft DirectX SDK (June 2010)\Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
-    <IncludePath>G:\Microsoft DirectX SDK (June 2010)\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>G:\Microsoft DirectX SDK (June 2010)\Lib\x86;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(DXSDK_DIR)\Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
     <OutDir>..\bin\</OutDir>
     <TargetName>Debug_$(ProjectName)</TargetName>
   </PropertyGroup>
@@ -396,10 +396,19 @@
     <ClCompile Include="animation\Playback\control\noaDefaultAnimControl.cpp" />
     <ClCompile Include="Animation\Rig\noaPose.cpp" />
     <ClCompile Include="Core\GameLog.cpp" />
-    <ClCompile Include="Core\StringHelper.cpp" />
-    <ClCompile Include="Core\U2File.cpp" />
-    <ClCompile Include="Core\U2WinFile.cpp" />
-    <ClCompile Include="Core\WIN32Util.cpp" />
+    <ClCompile Include="Core\StringHelper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Core\U2File.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Core\U2WinFile.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Core\WIN32Util.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="EmptyProject11.cpp" />
     <ClCompile Include="Font\GameFont.cpp" />
     <ClCompile Include="Framework\Camera.cpp" />
     <ClCompile Include="Framework\FileSystem.cpp" />
@@ -479,14 +488,30 @@
     <ClInclude Include="Core\FreeListArray.h" />
     <ClInclude Include="Core\GameLog.h" />
     <ClInclude Include="Core\Singleton.h" />
-    <ClInclude Include="Core\StringHelper.h" />
-    <ClInclude Include="Core\SysCommon.h" />
-    <ClInclude Include="Core\Templates.h" />
-    <ClInclude Include="Core\Types.h" />
-    <ClInclude Include="Core\U2File.h" />
-    <ClInclude Include="Core\U2FileTime_Win32.h" />
-    <ClInclude Include="Core\U2WinFile.h" />
-    <ClInclude Include="Core\Win32Util.h" />
+    <ClInclude Include="Core\StringHelper.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Core\SysCommon.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Core\Templates.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Core\Types.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Core\U2File.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Core\U2FileTime_Win32.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Core\U2WinFile.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Core\Win32Util.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="Framework\DemoFramework.h" />
     <ClInclude Include="Framework\M2Loader.h" />
     <ClInclude Include="Framework\mpq.h" />
@@ -555,35 +580,17 @@
     <ClInclude Include="UnitTests\hkTest.h" />
     <ClInclude Include="UnitTests\hkMathTest.h" />
     <None Include="animation\Rig\noaPose.inl" />
-    <None Include="Core\U2WinFile.inl" />
+    <None Include="Core\U2WinFile.inl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
     <None Include="DXUT\Optional\directx.ico" />
-    <ClInclude Include="DXUT\Core\DXUT.h" />
-    <ClInclude Include="DXUT\Core\DXUTenum.h" />
-    <ClInclude Include="DXUT\Core\DXUTmisc.h" />
-    <ClCompile Include="DXUT\Core\DXUT.cpp">
-      <PrecompiledHeader>Create</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="DXUT\Core\DXUTenum.cpp" />
-    <ClCompile Include="DXUT\Core\DXUTmisc.cpp" />
-    <ClInclude Include="DXUT\Optional\DXUTcamera.h" />
-    <ClInclude Include="DXUT\Optional\DXUTgui.h" />
-    <ClInclude Include="DXUT\Optional\DXUTres.h" />
-    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h" />
-    <ClInclude Include="DXUT\Optional\SDKmesh.h" />
-    <ClInclude Include="DXUT\Optional\SDKmisc.h" />
-    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp" />
-    <ClCompile Include="DXUT\Optional\DXUTgui.cpp" />
-    <ClCompile Include="DXUT\Optional\DXUTres.cpp" />
-    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp" />
-    <ClCompile Include="DXUT\Optional\SDKmesh.cpp" />
-    <ClCompile Include="DXUT\Optional\SDKmisc.cpp" />
     <None Include="Renderer\noFXEffect.inl" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EmptyProject10.cpp" />
     <ClCompile Include="EmptyProject9.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ResourceCompile Include="EmptyProject11.rc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Font\GameFont.h" />
@@ -596,7 +603,6 @@
     <ClInclude Include="Havok\hkTextDisplay.h" />
     <ClInclude Include="Renderer\Model.h" />
     <CLInclude Include="resource.h" />
-    <ResourceCompile Include="EmptyProject10.rc" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
