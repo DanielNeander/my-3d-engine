@@ -10,9 +10,9 @@ public:
 		//HK_DECLARE_REFLECTION();
 
 		/// Mapping indices
-		hkInt16* m_mapping;
+		int16* m_mapping;
 		/// Size of m_mapping array.
-		hkInt32 m_numMapping;
+		int32 m_numMapping;
 	};
 
 	class noMesh* mesh;
@@ -21,11 +21,11 @@ public:
 
 	struct Mapping* m_mappings;
 	/// Size of m_mappings array.
-	hkInt32 m_numMappings;
+	int32 m_numMappings;
 
 	hkTransform* m_boneFromSkinMeshTransforms;
 	/// Size of m_boneFromSkinMeshTransforms array.
-	hkInt32 m_numBoneFromSkinMeshTransforms;
+	int32 m_numBoneFromSkinMeshTransforms;
 
 };
 
