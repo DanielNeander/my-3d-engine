@@ -8,7 +8,7 @@ void noBlendMatrixSetDX9::addMatrix( const float* m, int referenceID )
 {
 	D3DMATRIX* newM = m_matrices.expandBy(1);
 	hkgMat4Copy( (float*)newM, m );
-	m_referenceIDs.pushBack((hkInt16)referenceID);
+	m_referenceIDs.pushBack((int16)referenceID);
 	HK_ASSERT(0x0, m_referenceIDs.getSize() == m_matrices.getSize());
 }
 

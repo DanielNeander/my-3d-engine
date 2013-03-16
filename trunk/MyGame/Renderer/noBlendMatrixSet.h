@@ -28,7 +28,7 @@ public:
 
 	/// To aid in setup and update from where ever these matrices come from
 	/// we store a reference int for each matrix. Has to be the same size as getNumMatrices().
-	hkArray<hkInt16> m_referenceIDs;
+	hkArray<int16> m_referenceIDs;
 };
 
 
