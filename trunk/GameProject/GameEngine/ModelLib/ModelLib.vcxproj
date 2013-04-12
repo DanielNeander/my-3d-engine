@@ -110,6 +110,7 @@
   <ItemGroup>
     <ClCompile Include="..\EngineCore\Util\GameLog.cpp" />
     <ClCompile Include="database.cpp" />
+    <ClCompile Include="dbcfile.cpp" />
     <ClCompile Include="Release\dbcfile.cpp" />
     <ClCompile Include="M2AnimationManager.cpp" />
     <ClCompile Include="M2Loader.cpp" />
