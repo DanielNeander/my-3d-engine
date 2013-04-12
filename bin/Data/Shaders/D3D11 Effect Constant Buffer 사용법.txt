@@ -1,0 +1,23 @@
+// Retrieve the handles to the constant buffers
+ 
+//
+ 
+m_pD3DXEffectEveryFrameConstBuffer = m_pD3DXEffect->GetConstantBufferByName("CBEveryFrame"); // Constant buffer that changes every frame
+ 
+if(!m_pD3DXEffectEveryFrameConstBuffer->IsValid())
+ 
+  return E_FAIL;
+ 
+update constant buffer:
+ 
+D3D11_MAPPED_SUBRESOURCE oD3DMappedSubresource;
+ 
+CHECK_COM(pD3DDeviceContext->Map(m_pD3DMaterialConstbuffer, 0, D3D11_MAP_WRITE_DISCARD, 0, &oD3DMappedSubresource)); // Get a pointer to the data in the constant buffer
+ 
+::memcpy(oD3DMappedSubresource.pData, pMaterialConstantBuffer, sizeof(SMaterialConstantBuffer)); // Copy the constant buffers
+ 
+pD3DDeviceContext->Unmap(m_pD3DMaterialConstbuffer, 0);
+ 
+CHECK_COM(m_pD3DXEffectMaterialConstBuffer->SetConstantBuffer(m_pD3DMaterialConstbuffer)); // Set material constant buffer in the shader
+ 
+Assuming the constant buffer was created dynamic usage flag. If it's created with default usage flag then you have to use UpdateSubresource method to do so

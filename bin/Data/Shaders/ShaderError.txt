@@ -1,0 +1,43 @@
+shader model 4.0 변경시
+Output Postion -> SV_Positon 
+COLOR -> SV_Target 
+으로 변경해야 함.
+
+
+---------------------------
+Error
+---------------------------
+E:\MyGame\bin\Data\Shaders\VolumeClouds.hlsl(73,9): warning X3206: implicit truncation of vector type
+E:\MyGame\bin\Data\Shaders\VolumeClouds.hlsl(77,9): warning X3206: implicit truncation of vector type
+E:\MyGame\bin\Data\Shaders\VolumeClouds.hlsl(78,9): warning X3206: implicit truncation of vector type
+E:\MyGame\bin\Data\Shaders\VolumeClouds.hlsl(91,77): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+E:\MyGame\bin\Data\Shaders\VolumeClouds.hlsl(47,13): warning X3578: Output value 'oPosition' is not completely initialized
+error X4571: ps_4_0 output limit (8) exceeded, shader uses 11 outputs.
+
+---------------------------
+확인   
+---------------------------
+
+D3D11: ERROR: ID3D11DeviceContext::DrawIndexedInstanced: Input Assembler - Vertex Shader linkage error: Signatures between stages are incompatible. Semantic 'POSITION' of the input stage has a hardware register component mask that is not a subset of the output of the previous stage. [ EXECUTION ERROR #345: DEVICE_SHADER_LINKAGE_REGISTERMASK ]
+
+3D11: ERROR: ID3D11Device::RemoveDevice: Device removal has been triggered for the following reason (DXGI_ERROR_DEVICE_HUNG: The Device took an unreasonable amount of time to execute its commands, or the hardware crashed/hung. As a result, the TDR (Timeout Detection and Recovery) mechanism has been triggered. The current Device Context was executing commands when the hang occurred. The application may want to respawn and fallback to less aggressive use of the display hardware). [ EXECUTION ERROR #378: DEVICE_REMOVAL_PROCESS_AT_FAULT ]
+
+
+D3D11: ERROR: ID3D11Device::CreateTexture2D: The Sample descriptor is invalid. DXGI_SAMPLE_DESC::Count should be greater than zero [ STATE_CREATION ERROR #93: CREATETEXTURE2D_INVALIDSAMPLES ]
+
+D3D11: ERROR: ID3D11Device::CreateRenderTargetView: The Format (0x27, R32_TYPELESS) is invalid, when creating a View; it is not a fully qualified Format castable from the Format of the Resource (0x27, R32_TYPELESS). [ STATE_CREATION ERROR #136: CREATERENDERTARGETVIEW_INVALIDFORMAT ]
+D3D11: ERROR: ID3D11Device::CreateRenderTargetView: The format (0x27, R32_TYPELESS) cannot be used with a RenderTarget view.  [ STATE_CREATION ERROR #136: CREATERENDERTARGETVIEW_INVALIDFORMAT ]
+First-chance exception at 0x7586c6e3 in GameApp.exe: Microsoft C++ exception: _com_error at memory location 0x0023ec4c..
+D3D11: ERROR: ID3D11Device::CreateRenderTargetView: Returning E_INVALIDARG, meaning invalid parameters were passed. [ STATE_CREATION ERROR #140: CREATERENDERTARGETVIEW_INVALIDARG_RETURN ]
+GameApp.exe has triggered a breakpoint
+
+D3D11: ERROR: ID3D11Device::CreateTexture2D: The Dimensions are invalid. For feature level D3D_FEATURE_LEVEL_11_0, the Width (value = 0) must be between 1 and 16384, inclusively. The Height (value = 0) must be between 1 and 16384, inclusively. And, the ArraySize (value = 1) must be between 1 and 2048, inclusively. [ STATE_CREATION ERROR #101: CREATETEXTURE2D_INVALIDDIMENSIONS ]
+D3D11: ERROR: ID3D11Device::CreateTexture2D: MipLevels invalid. With the dimensions of Width = 0, Height = 0, and ArraySize = 1, MipLevels (value = 1) must be between 1 and 0, inclusively. [ STATE_CREATION ERROR #102: CREATETEXTURE2D_INVALIDMIPLEVELS ]
+First-chance exception at 0x7586c6e3 in GameApp.exe: Microsoft C++ exception: _com_error at memory location 0x0025ebf8..
+D3D11: ERROR: ID3D11Device::CreateTexture2D: Returning E_INVALIDARG, meaning invalid parameters were passed. [ STATE_CREATION ERROR #104: CREATETEXTURE2D_INVALIDARG_RETURN ]
+
+D3D11: ERROR: ID3D11Device::CreateRenderTargetView: The Format (0xcccccccc) is unrecognized. [ STATE_CREATION ERROR #133: CREATERENDERTARGETVIEW_UNRECOGNIZEDFORMAT ]
+First-chance exception at 0x7586c6e3 in GameApp.exe: Microsoft C++ exception: _com_error at memory location 0x0025ec04..
+D3D11: ERROR: ID3D11Device::CreateRenderTargetView: Returning E_INVALIDARG, meaning invalid parameters were passed. [ STATE_CREATION ERROR #140: CREATERENDERTARGETVIEW_INVALIDARG_RETURN ]
+
+E:\MyGame\bin\Data\Shaders\Particle.fx(180,13): Assignment FillMode: Only literal right-hand side values are allowed in state blocks in Effects performance mode
