@@ -1,0 +1,2364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{5985d122-6b83-4be7-90db-18144a0fe463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BSP">
+      <UniqueIdentifier>{6519d955-f954-470e-b1c3-2c86345f0ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShadowMapTest">
+      <UniqueIdentifier>{972f73e0-9078-4f1f-b72e-1b4aff3b8268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSAO">
+      <UniqueIdentifier>{d6bf3486-4ad4-4d1a-9083-49215759525b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{564d0e4a-6453-4feb-906c-315bfe4b9c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StreamingTests">
+      <UniqueIdentifier>{e15d22f3-db64-4ff1-b1ec-95b3010573d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{72ac4b03-0256-4f3e-9650-182bf33cd240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{d123400d-e8f1-4f13-b69f-915ae6beb1e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{cf07468c-d1cf-4334-bc3a-a2b56df6a9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{ef1c47b2-7d1d-41d6-9859-752ebc85e610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{677c6426-5622-41e5-a884-139aa140d73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animations">
+      <UniqueIdentifier>{7fef0270-16ef-498a-8a7c-1363d00fd24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{861140ee-b2be-437e-a54b-8cc6e25693ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Intersect_Line">
+      <UniqueIdentifier>{437c6b8f-6f17-46c3-9a17-ad3129fa57ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{91b4918e-8b0a-4585-821e-5ac59c74b812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{fe0201ec-aafc-4086-bf89-914e207890d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Navigation">
+      <UniqueIdentifier>{a2102c3f-b5e1-4199-bb7c-ca7180f05910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shadow">
+      <UniqueIdentifier>{ead1d7ab-9fd5-4f80-b7e3-1aa53dcb00be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{b5429993-b23c-4561-9347-d4dba383c7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{8c8dbbf9-5ba9-4bf5-a281-b019ee7aa65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\SNBTerrain">
+      <UniqueIdentifier>{755187c8-c04c-40d5-acaa-fa0e49871ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\SpeedTree">
+      <UniqueIdentifier>{dea91e47-6465-45ef-b7ed-d88f640be785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\TerrainLib">
+      <UniqueIdentifier>{67b71cf1-b4bd-4263-b065-003fee1c7e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\Torque">
+      <UniqueIdentifier>{55615f4a-ed72-47da-827e-49324729972a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{bee403d7-099f-48b7-b3fd-8f50792ad619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{e15568a8-a466-49b9-9c17-abb454785fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{d0bca1ae-6ec5-4909-ade6-30d4e924200b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeferredRendering">
+      <UniqueIdentifier>{c517c92a-350b-462c-a7ec-5ae963c15490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cull">
+      <UniqueIdentifier>{782f81ba-71a8-4eaa-b86d-75644a0f3ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\GeometryClipmap">
+      <UniqueIdentifier>{9fb5c0b6-ec60-4f0d-8a1a-b84ad5d879fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\NVTerrain">
+      <UniqueIdentifier>{e8b3f68b-da5f-4a63-8342-cbaed33e32ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weather">
+      <UniqueIdentifier>{f9a020f6-bef4-4c65-a0b1-f75a696806de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sky">
+      <UniqueIdentifier>{b7e9e408-1ee2-44ca-98aa-b70610b16f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\ISLand">
+      <UniqueIdentifier>{f2647b57-f56e-46c1-a2c1-c7ce68f41660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Water">
+      <UniqueIdentifier>{8e4cbfed-7c20-4c55-8b55-0051343d76d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Water\CSFFT">
+      <UniqueIdentifier>{92fbf93f-6490-480c-b4ac-bf8fecbbff34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{2cf249d3-3807-4be1-a6e4-70f2330738b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\utils">
+      <UniqueIdentifier>{4b0fd40d-6bbc-4ad9-a890-c881ef0ee77b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RayTracing">
+      <UniqueIdentifier>{39535878-28de-489e-8cb4-2fba1d98acf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\PRT">
+      <UniqueIdentifier>{e5ae07c3-0261-445c-a42d-f1540ab11d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\volumeLight">
+      <UniqueIdentifier>{6dfcb076-0153-44e4-ac9d-d21e57b50581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\SH">
+      <UniqueIdentifier>{836ede53-9bc2-42b3-a20d-9dee7309acd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\XenoCollision">
+      <UniqueIdentifier>{8cba7a1b-8c77-403a-9eb9-55414d76c145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{8556964b-3016-4ba5-8c2c-1493d1bd018a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{c542eda8-f0fa-401a-9541-6787ed044d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5\math">
+      <UniqueIdentifier>{f5646c1f-ba79-4fbc-9bdd-42fc77da3985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\DamageModel">
+      <UniqueIdentifier>{222b355a-b53c-4c2c-a3ac-91b44f4cd8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Edit">
+      <UniqueIdentifier>{e05db5da-8017-432f-a447-b00eed5b3417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\CachedProcedureTexturing">
+      <UniqueIdentifier>{46bcd78b-edda-455c-bd44-e9f6a51c4940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{8b29a004-a42e-4b2b-8e05-080164fac589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Grass">
+      <UniqueIdentifier>{355a7140-d33e-4df5-b2c8-58b4cf9b0796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Tree">
+      <UniqueIdentifier>{1a92faa3-e57d-4013-bb1c-8b1f01d56ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{ee798ddf-8aab-4ba2-b44b-5621f643c4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trees">
+      <UniqueIdentifier>{dadffbc4-9d4c-4336-8f55-9b8e85ed8130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcedureTrees">
+      <UniqueIdentifier>{5bf6c89b-3067-40d9-9f19-133eb458f8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicTypes">
+      <UniqueIdentifier>{75816ec7-10c9-4b8e-91cf-ca533ef1810d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcedureFires">
+      <UniqueIdentifier>{acf70d34-f146-4e80-b3c8-54601317381f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{9f2f7bed-1fa3-4fc7-9a90-f4a915c422f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{cf385a53-c9ca-46be-a264-0ba4c60b4ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{cbc77012-0ced-43f7-a553-3001c8826280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{2346a890-9abb-47ba-899d-662ccf1bd894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{61026384-54bb-4e98-b689-f7d011d09d63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GameApp.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TArray.inl">
+      <Filter>SSAO</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\Common.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\Deformation.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\INoise.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\Picking.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\SkyBox11.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\Stars.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\TerrainTessellation.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\Wireframe.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="..\..\..\bin\Data\Shaders\GBuffer.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Lighting.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Mesh.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\PostProcessing.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Quad.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SH.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Clouds.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Lightning.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Moon.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Skydome.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\VolumeClouds.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\VolumeCloudsLightning.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Water\CSFFT\fft_512x512_c2c.hlsl">
+      <Filter>Water\CSFFT</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\ColorPSSM.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\RenderCascadeScene.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\RenderCascadeShadow.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\cascadeshadow.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\pssm.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SNBTerrainPatch.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\PSSM_Skinned.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\PSSM_Skinned_Instancing.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SkinColorPSSM.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SkinnedShader.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\PSSM.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\PSSM_Instancing.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Particle.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\BlinnPhong.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\lib.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Imaging.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Lightning.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\MainEffect.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SimpleColor.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\WireColor.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Diffuse.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\common.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\ocean_simulator_vs_ps.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Water.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\Bin\Data\Shaders\Grass.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\Bin\Data\Shaders\Tree.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\U2.gdf">
+      <Filter>Source Files\Resources</Filter>
+    </None>
+    <None Include="..\..\..\bin\Trees.cdf">
+      <Filter>Source Files\Resources</Filter>
+    </None>
+    <None Include="..\..\..\bin\TreeAndFire.cdf">
+      <Filter>Source Files\Resources</Filter>
+    </None>
+    <None Include="..\..\..\bin\Graphics.sdf">
+      <Filter>Source Files\Resources</Filter>
+    </None>
+    <None Include="..\..\..\Bin\Data\Shaders\Tree.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\AmbientOcclusionTraditionalCS_randomized_viewspace_16.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\AmbientOcclusionTraditionalCS_randomized_viewspace_32.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\DepthPS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\DepthVS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\FinalPS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\FinalVS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\SeparableBilateralCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\SkinColorSSAO.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\ColorSSAO.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\bin\Data\Shaders\Lighting.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PSSMShadowMapDx11.h">
+      <Filter>ShadowMapTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>ShadowMapTest</Filter>
+    </ClInclude>
+    <ClInclude Include="LWOFile.h">
+      <Filter>ShadowMapTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>ShadowMapTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh_D3D11.h">
+      <Filter>ShadowMapTest</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>ShadowMapTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>ShadowMapTest</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoSetup.h">
+      <Filter>ShadowMapTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryDX11.h">
+      <Filter>SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryLoaderDX11.h">
+      <Filter>SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="TArray.h">
+      <Filter>SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexElementDX11.h">
+      <Filter>SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="CLineIndices.h">
+      <Filter>SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="CPointIndices.h">
+      <Filter>SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="CTriangleIndices.h">
+      <Filter>SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="ms3dspec.h">
+      <Filter>SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectComponent.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObjects.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakPointer.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectAttribute.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\NavDebugDraw.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLoader.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIMeshLoader.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\NavSourceMesh.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\ChunkyTriMesh.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="M2Mesh.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Font\Dx11TextHelper.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\ElevationDataSource.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\AdaptiveModelDX11Render.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\BitStream.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\BlockBasedAdaptiveModel.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\DynamicQuadTreeNode.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Errors.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\RQTTriangulation.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\HierarchyArray.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\PatchCache.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\SNBTerrainConfigFile.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\TriangDataSource.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\TerrainPatch.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\TileRing.h">
+      <Filter>Terrain\NVTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\SkyBox11.h">
+      <Filter>Terrain\NVTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Stars.h">
+      <Filter>Terrain\NVTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\CommandSystem.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\SteeringBehavior.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIDraw.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\PathManager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationStateComponent.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSystem.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIBehaviors.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIBrain.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="RTTI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectUtil.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIPath.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\CellSpacePartition.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\GameWorld.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\InvertedAABox2D.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Intersection2D.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIUtil.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AIConfig.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Wall2D.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Matrix2D.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Transform2DFuncs.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\StateMachine.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Message.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AICommon.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\MessageNames.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\MsgRoute.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\SMDebugLoig.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Body.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\CoordinateFrame.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\lineintersect_utils.h">
+      <Filter>Collision\Intersect_Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\FBM.h">
+      <Filter>Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\NavigationArea.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\IK.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroDefine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M2Edit.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M2Object.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M2EffectRender.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\BaseStates.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorInput.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\FSMStateNames.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\CombatSystem.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\HeightMapGenerator.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\navigationcell.h">
+      <Filter>AI\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\navigationheap.h">
+      <Filter>AI\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\navigationmesh.h">
+      <Filter>AI\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\navigationpath.h">
+      <Filter>AI\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\line2d.h">
+      <Filter>AI\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\navmap.h">
+      <Filter>AI\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\NavTestActor.h">
+      <Filter>AI\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CascadedShadowsManager.h">
+      <Filter>Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowSampleMisc.h">
+      <Filter>Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKMeshLoader.h">
+      <Filter>SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceStates.h">
+      <Filter>DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfacePointers.h">
+      <Filter>DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessor.h">
+      <Filter>DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessorBase.h">
+      <Filter>DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsTypes.h">
+      <Filter>DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="AppSettings.h">
+      <Filter>DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="LIDRenderer.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SH.h">
+      <Filter>DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardSet.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorValue.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="RadixSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\AtmosphereManager.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\BasicController.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\CloudsManager.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\ColorGradient.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\Controller.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\DataManager.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\Ellipsoid.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\FastFakeRandom.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\GeometryBlock.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\GeometryManager.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\Lightning.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\LightningManager.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\MoonManager.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\SkydomeMesh.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\VClouds.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\VCloudSkySystem.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky\VCloudsManager.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\EffectUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelFormat.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BitWise.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Terrain\ISLand</Filter>
+    </ClInclude>
+    <ClInclude Include="Water\ocean_simulator.h">
+      <Filter>Water</Filter>
+    </ClInclude>
+    <ClInclude Include="Water\CSFFT\fft_512x512.h">
+      <Filter>Water\CSFFT</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\Clipmap.h">
+      <Filter>Terrain\GeometryClipmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\JPEG_Decoder.h">
+      <Filter>Terrain\GeometryClipmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\JPEG_Preprocessor.h">
+      <Filter>Terrain\GeometryClipmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\ChainLightning.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\ColorRenderBuffer.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\EffectVariable.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Geometry.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\LightningRenderer.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\LightningSeed.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\PathLightning.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="UnColor.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="UnMath.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\TrailEffect.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Rain.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Light\LightMap.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Light\utils\pfmreader.h">
+      <Filter>Light\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Light\imagePRT.h">
+      <Filter>Light\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Light\SSAORenderer.h">
+      <Filter>SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="VolLightRenderer.h">
+      <Filter>Light\volumeLight</Filter>
+    </ClInclude>
+    <ClInclude Include="VolSpotLightRender.h">
+      <Filter>Light\volumeLight</Filter>
+    </ClInclude>
+    <ClInclude Include="U2Light.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\EffectSystem.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\LightningEffect.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="NonCharObjects.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCompilation.h">
+      <Filter>DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\CameraShakeEffect.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\MD5IK.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\BitMsg.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\CmdArgs.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\CmdSystem.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\CVarSystem.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\Dict.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\File.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\Lexer.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\Token.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\Unzip.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\DeclManager.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\DeclAF.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\MD5Anim.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Model.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Triangle.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Clip.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics_Actor.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\Md5Class.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Entity.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Event.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionModel.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionModel_local.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5MapFile.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\IvCurve.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Material.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics_Base.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Game.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Push.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Force.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics_Monster.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics_Player.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\UsercmdGen.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Renderer.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5AFEntity.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Actor.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5AF.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics_AF.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Timer.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5SysCVar.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5ModelManager.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics_Parametric.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics_Static.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Scene.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Image.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageZone.h">
+      <Filter>Model\DamageModel</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageModel.h">
+      <Filter>Model\DamageModel</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageAnimator.h">
+      <Filter>Model\DamageModel</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5AI.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5AI_define.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\MD5Misc.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveEditor.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\DrawUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\RayTriIntersection.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectTool.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\CurveLines.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveObjects.h">
+      <Filter>Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle\cyclone_physics.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\PidController.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="TGALoader.h">
+      <Filter>Terrain\GeometryClipmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\SNBTerrainMaterial.h">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\InstancedBillboard.h">
+      <Filter>Objects\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\BBGrassPatch.h">
+      <Filter>Objects\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Billboard.h">
+      <Filter>Objects\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\DecorationSystem.h">
+      <Filter>Objects\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralTrees\TreeObject.h">
+      <Filter>ProcedureTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralTrees\TreeScene.h">
+      <Filter>ProcedureTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralTrees\TreeSystem.h">
+      <Filter>ProcedureTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralTrees\TreeTask.h">
+      <Filter>ProcedureTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\aabb.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\Branch.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\Canopy.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\FatTreeGrammar.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\GrammarDef.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\Observer.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\PlainTreeGrammar.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\ScratchTreeGrammar.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\segment.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\SpeciesGrammar.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\SpikeTreeGrammar.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\Tree.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\TreeGrammar1.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\Vector3.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Trees\Vertex.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTypes\BaseTypes.h">
+      <Filter>BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralFire\ColdParticle.h">
+      <Filter>ProcedureFires</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralFire\Fire.h">
+      <Filter>ProcedureFires</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralFire\FireBall.h">
+      <Filter>ProcedureFires</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralFire\FireObject.h">
+      <Filter>ProcedureFires</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralFire\FirePatch.h">
+      <Filter>ProcedureFires</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralFire\FireScene.h">
+      <Filter>ProcedureFires</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralFire\FireSystem.h">
+      <Filter>ProcedureFires</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralFire\FireTask.h">
+      <Filter>ProcedureFires</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralFire\HeatParticle.h">
+      <Filter>ProcedureFires</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralFire\PSystem.h">
+      <Filter>ProcedureFires</Filter>
+    </ClInclude>
+    <ClInclude Include="basetypes\simpleSingleton.h">
+      <Filter>BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ChangeControlManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\DebugWindow.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\EnvironmentManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Framework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FrameworkAPI.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Instrumentation.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\IttNotify.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MemoryManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\PlatformManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scheduler.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ServiceManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\SystemManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\TaskManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\TaskManagerTP.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ThreadPool.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Universal.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Area.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Behavior.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\ChangeControl.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Contact.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Environment.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Generic.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Geometry.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Graphics.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\GUI.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Interface.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Move.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Platform.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Property.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Service.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\System.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\SystemTypes.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Target.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\TaskManager.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="M2Equipment.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicSystem.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMesh.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsTask.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputSystem.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\GeomSystem.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\GeomScene.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\GeomObject.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputObject.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputScene.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputTask.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Billboard2.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Proxies.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ResourceBundle.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ResourceId.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\StorageResourceBundle.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\MeshBundle.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\DeviceResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ReloadableBundle.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\StringHelper.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>ShadowMapTest</Filter>
+    </ClCompile>
+    <ClCompile Include="LWOFile.cpp">
+      <Filter>ShadowMapTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>ShadowMapTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh_D3D11.cpp">
+      <Filter>ShadowMapTest</Filter>
+    </ClCompile>
+    <ClCompile Include="PSSMShadowMapDx11.cpp">
+      <Filter>ShadowMapTest</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject.cpp">
+      <Filter>ShadowMapTest</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoSetup.cpp">
+      <Filter>ShadowMapTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMapTest.cpp">
+      <Filter>ShadowMapTest</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryDX11.cpp">
+      <Filter>SSAO</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryLoaderDX11.cpp">
+      <Filter>SSAO</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexElementDX11.cpp">
+      <Filter>SSAO</Filter>
+    </ClCompile>
+    <ClCompile Include="CLineIndices.cpp">
+      <Filter>SSAO</Filter>
+    </ClCompile>
+    <ClCompile Include="CPointIndices.cpp">
+      <Filter>SSAO</Filter>
+    </ClCompile>
+    <ClCompile Include="CTriangleIndices.cpp">
+      <Filter>SSAO</Filter>
+    </ClCompile>
+    <ClCompile Include="FontTests.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectComponent.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObjects.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Util.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectAttribute.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\NavDebugDraw.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLoader.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIMeshLoader.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\NavSourceMesh.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\ChunkyTriMesh.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="M2Mesh.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Font\Dx11TextHelper.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\AdaptiveModelDX11Render.cpp">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\BitStream.cpp">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\BlockBasedAdaptiveModel.cpp">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\ElevationDataSource.cpp">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\PatchCache.cpp">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\RQTTriangulation.cpp">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\SNBTerrainConfigFile.cpp">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\TriangDataSource.cpp">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\TerrainPatch.cpp">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\SkyBox11.cpp">
+      <Filter>Terrain\NVTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Stars.cpp">
+      <Filter>Terrain\NVTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\TileRing.cpp">
+      <Filter>Terrain\NVTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\CommandSystem.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIDraw.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationStateComponent.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSystem.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Anim_Blend.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\PathManager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIBehaviors.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIBrain.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTI.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectUtil.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\SteeringBehavior.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIPath.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\GameWorld.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigFile.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AIConfig.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\StateMachine.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\MsgRoute.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\SMDebugLog.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\GameEntityTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\NavMeshTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Body.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\CoordinateFrame.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\lineintersect_utils.cpp">
+      <Filter>Collision\Intersect_Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Ik.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="M2Edit.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="M2SpellEffects.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="M2Object.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="M2EffectRender.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\BaseStates.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorInput.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\CombatSystem.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\navigationcell.cpp">
+      <Filter>AI\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\navigationmesh.cpp">
+      <Filter>AI\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\navmap.cpp">
+      <Filter>AI\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CascadedShadowsManager.cpp">
+      <Filter>Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="SDKMeshLoader.cpp">
+      <Filter>SSAO</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredRenderTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredParticleTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11TerrainTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SNBTerrainTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAOTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="CascadedShadowTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysicsTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="LightningTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="M2RibbonEmiiterTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="M2ParticleSystemTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\IntersectionTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexedDeferredTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceStates.cpp">
+      <Filter>DeferredRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessor.cpp">
+      <Filter>DeferredRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessorBase.cpp">
+      <Filter>DeferredRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>DeferredRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsTypes.cpp">
+      <Filter>DeferredRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="AppSettings.cpp">
+      <Filter>DeferredRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SH.cpp">
+      <Filter>DeferredRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="LIDRenderer.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="OcculsionCullingTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorValue.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardSet.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\AtmosphereManager.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\BasicController.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\CloudsManager.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\ColorGradient.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\DataManager.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\Ellipsoid.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\FastFakeRandom.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\GeometryBlock.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\GeometryManager.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\Lightning.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\LightningManager.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\MoonManager.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\SkydomeMesh.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\VClouds.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\VCloudSkySystem.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky\VCloudsManager.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeLightTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\EffectUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Terrain\ISLand</Filter>
+    </ClCompile>
+    <ClCompile Include="Water\ocean_simulator.cpp">
+      <Filter>Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Water\render.cpp">
+      <Filter>Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Water\CSFFT\fft_512x512_c2c.cpp">
+      <Filter>Water\CSFFT</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\Clipmap.cpp">
+      <Filter>Terrain\GeometryClipmap</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\JPEG_Decoder.cpp">
+      <Filter>Terrain\GeometryClipmap</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\JPEG_Preprocessor.cpp">
+      <Filter>Terrain\GeometryClipmap</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipmapTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\ChainLightning.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\ColorRenderBuffer.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Geometry.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\LightningRenderer.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\LightningSeed.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\PathLightning.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiThreadedTest.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="UnColor.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\TrailEffect.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Rain.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GITest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Light\utils\pfmreader.cpp">
+      <Filter>Light\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Light\imagePRT.cpp">
+      <Filter>Light\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Light\SSAORenderer.cpp">
+      <Filter>SSAO</Filter>
+    </ClCompile>
+    <ClCompile Include="VolLightRenderer.cpp">
+      <Filter>Light\volumeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="U2Light.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\EffectSystem.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\LightningEffect.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="NonCharObjects.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Light\Lightmap.cpp">
+      <Filter>Light\volumeLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderCompilation.cpp">
+      <Filter>DeferredRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameChar.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\CameraShakeEffect.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="UnMath.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="MathTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\MD5Ik.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\BitMsg.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\CmdArgs.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\CmdSystem.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\CVarSystem.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\Dict.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\File.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\Lexer.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\Token.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\Unzip.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\DeclManager.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\DeclAF.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\MD5Anim_Blend.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Md5Anim.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Model.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5ModelManager.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Clip.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics_Actor.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Class.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Event.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Entity.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionModel_load.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5MapFile.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\IvCurve.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Material.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics_Base.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Game.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Push.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Force.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics_Monster.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics_Player.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\UsercmdGen.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5AFEntity.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Actor.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics_AF.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5AF.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Timer.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5SysCVar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionModel_contacts.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionModel_contents.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionModel_debug.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionModel_files.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionModel_rotate.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionModel_trace.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionModel_translate.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics_Parametric.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics_Static.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Renderer.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Scene.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Triangle.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Image.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageModel.cpp">
+      <Filter>Model\DamageModel</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageZone.cpp">
+      <Filter>Model\DamageModel</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageAnimator.cpp">
+      <Filter>Model\DamageModel</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5AI.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5AI_events.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5Test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\MD5Misc.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveEditor.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="AppEdit.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\DrawUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="App_physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\RayTriIntersection.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionTool.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\CurveLines.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveObjects.cpp">
+      <Filter>Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle\cyclone_physics.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjecTile.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\PidController.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\SNBTerrainMaterial.cpp">
+      <Filter>Terrain\SNBTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\BBGrassPatch.cpp">
+      <Filter>Objects\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Billboard.cpp">
+      <Filter>Objects\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\InstancedBillboard.cpp">
+      <Filter>Objects\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\ShereConeIntersectionTest.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\DecorationSystem.cpp">
+      <Filter>Objects\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralTrees\TreeTask.cpp">
+      <Filter>ProcedureTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralTrees\TreeObject.cpp">
+      <Filter>ProcedureTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralTrees\TreeScene.cpp">
+      <Filter>ProcedureTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralTrees\TreeSystem.cpp">
+      <Filter>ProcedureTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Branch.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Canopy.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\FatTreeGrammar.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Observer.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\PlainTreeGrammar.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\ScratchTreeGrammar.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Segment.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\SpeciesGrammar.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\SpikeTreeGrammar.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Tree.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\TreeGrammar1.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Vector3.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Trees\Vertex.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTypes\Debug.cpp">
+      <Filter>BasicTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTypes\Math.cpp">
+      <Filter>BasicTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTypes\MathX.cpp">
+      <Filter>BasicTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTypes\Synchronization.cpp">
+      <Filter>BasicTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTypes\Thread.cpp">
+      <Filter>BasicTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTypes\UnitAllocator.cpp">
+      <Filter>BasicTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralFire\ColdParticle.cpp">
+      <Filter>ProcedureFires</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralFire\Fire.cpp">
+      <Filter>ProcedureFires</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralFire\FireBall.cpp">
+      <Filter>ProcedureFires</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralFire\FireObject.cpp">
+      <Filter>ProcedureFires</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralFire\FirePatch.cpp">
+      <Filter>ProcedureFires</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralFire\FireScene.cpp">
+      <Filter>ProcedureFires</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralFire\FireSystem.cpp">
+      <Filter>ProcedureFires</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralFire\FireTask.cpp">
+      <Filter>ProcedureFires</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralFire\HeatParticle.cpp">
+      <Filter>ProcedureFires</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralFire\PSystem.cpp">
+      <Filter>ProcedureFires</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTypes\simpleSingleton.cpp">
+      <Filter>BasicTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\ChangeControlManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\DebugWindow.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\EnvironmentManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Framework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Instrumentation.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\MemoryManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\PlatformManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scheduler.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\ServiceManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\SystemManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\TaskManagerTP.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\ThreadPool.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Universal.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces\ChangeControl.cpp">
+      <Filter>Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces\Property.cpp">
+      <Filter>Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces\System.cpp">
+      <Filter>Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="U2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M2Equipment.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicSystem.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMesh.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsTask.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputSystem.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeomSystem.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeomScene.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeomObject.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputObject.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputScene.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputTask.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Billboard2.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\MeshBundle.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\StringHelper.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameApp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
