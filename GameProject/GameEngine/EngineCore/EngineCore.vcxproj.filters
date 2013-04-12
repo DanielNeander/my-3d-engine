@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{25139004-faed-46e2-bdf2-8e77b9bd696e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math">
+      <UniqueIdentifier>{104a604d-7e5e-407d-b314-9beeb26dae81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio">
+      <UniqueIdentifier>{1776b840-149e-4367-86a7-2606d5b08d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GUI">
+      <UniqueIdentifier>{6bbf8aaa-29b0-4e37-9e49-895102d884fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Util">
+      <UniqueIdentifier>{d3939afa-baec-47cd-85f1-2c66180c49b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Imaging">
+      <UniqueIdentifier>{c22c367d-ac77-4d79-8d51-1afa24bd1629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource">
+      <UniqueIdentifier>{a4512751-8e62-41d7-8e08-ec46cf1b7e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\TBB">
+      <UniqueIdentifier>{7300d27f-9c45-4803-85bf-287af3a3da27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SpeedTree">
+      <UniqueIdentifier>{b78acef1-61ba-4fec-95a1-df793ffefec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DirectX11">
+      <UniqueIdentifier>{e3eea64f-2421-41c3-aa8f-f723734ab97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Unreal3">
+      <UniqueIdentifier>{01914c39-4456-402c-b89f-dd5fec4180e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math\SIMD">
+      <UniqueIdentifier>{567e81c3-11db-4a84-9035-b5371ad76694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Geometry">
+      <UniqueIdentifier>{ef0bed03-5218-4b2f-b461-ff636c11589d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Containers">
+      <UniqueIdentifier>{c2e38f49-2ebc-4571-b1f7-909b45c82025}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\BaseApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\CPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Direct3D11\D3D11App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GUI\Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GUI\CheckBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GUI\Dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GUI\DropDownList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GUI\Label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GUI\Slider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\GUI\Widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Math\SphericalHarmonics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Util\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Util\BSP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Util\ConvexHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Util\Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Util\KdTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Util\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Util\Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Util\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Util\TexturePacker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Util\Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Util\Tokenizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Math\Angles.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Math\Interpolate.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Math\MathTools.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Math\MyMath.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Math\Noise.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Math\Reorder.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Math\Scissor.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Math\Extrapolate.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Math\Frustum.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RefCount.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\dynarray.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\U2WinFile.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\U2FileTime_Win32.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ResourceManager.h">
+      <Filter>Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Imaging\Image.h">
+      <Filter>Engine\Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\GameMath.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\BoundingBox.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntersectionTests.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="assertx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFreeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TBB\CPUUsage.h">
+      <Filter>Engine\TBB</Filter>
+    </ClInclude>
+    <ClInclude Include="TBB\DynamicTaskMgrBase.h">
+      <Filter>Engine\TBB</Filter>
+    </ClInclude>
+    <ClInclude Include="TBB\Profile.h">
+      <Filter>Engine\TBB</Filter>
+    </ClInclude>
+    <ClInclude Include="TBB\spin_mutex.h">
+      <Filter>Engine\TBB</Filter>
+    </ClInclude>
+    <ClInclude Include="TBB\TaskMgr.h">
+      <Filter>Engine\TBB</Filter>
+    </ClInclude>
+    <ClInclude Include="TBB\TaskMgrCommon.h">
+      <Filter>Engine\TBB</Filter>
+    </ClInclude>
+    <ClInclude Include="TBB\TaskMgrCRT.h">
+      <Filter>Engine\TBB</Filter>
+    </ClInclude>
+    <ClInclude Include="TBB\TaskMgrSS.h">
+      <Filter>Engine\TBB</Filter>
+    </ClInclude>
+    <ClInclude Include="TBB\TaskMgrTBB.h">
+      <Filter>Engine\TBB</Filter>
+    </ClInclude>
+    <ClInclude Include="TBB\TaskScheduler.h">
+      <Filter>Engine\TBB</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D11\Dx11TextureManager.h">
+      <Filter>Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D11\Direct3D11Renderer.h">
+      <Filter>Engine\DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Rotation.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\ContainerAllocationPolicies.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\MemoryBase.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\Array.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\UnArc.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\UnString.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\UnStringConv.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\Core.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\UnTemplate.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\UnTypeTraits.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\UnName.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\StringFunc.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\UnObjBase.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\FloatPacker.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\noTransform.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\GaussianElim.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\Sorting.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\FMallocThreadSafeProxy.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\UnThreadingBase.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\FMallocWindows.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\UnVcWin32.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\UnThreadingWindows.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\UnMathSSE.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal3\RefCounting.h">
+      <Filter>Engine\Unreal3</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Simd.h">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Simd_3DNow.h">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Simd_AltiVec.h">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Simd_Generic.h">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Simd_MMX.h">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Simd_SSE.h">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Simd_SSE2.h">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Simd_SSE3.h">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\DrawVert.h">
+      <Filter>Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Str.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Random.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D11\fft.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\BTree.h">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\JointTransform.h">
+      <Filter>Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Sys.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\List.h">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\StrPool.h">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\HashIndex.h">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\StrList.h">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\TraceModel.h">
+      <Filter>Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Winding.h">
+      <Filter>Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MD5Bounds.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Pluecker.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\HashTable.h">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\BinSearch.h">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Hierarchy.h">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\LinkList.h">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Queue.h">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Stack.h">
+      <Filter>Engine\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Surface.h">
+      <Filter>Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Surface_Patch.h">
+      <Filter>Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Surface_Polytope.h">
+      <Filter>Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Surface_SweptSpline.h">
+      <Filter>Engine\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Curve.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Lcp.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".\BaseApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\CPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Direct3D11\D3D11App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GUI\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GUI\CheckBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GUI\Dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GUI\DropDownList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GUI\Label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GUI\Slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\GUI\Widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Util\BSP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Util\ConvexHull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Util\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Util\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Util\TexturePacker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Util\Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Util\Tokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Math\MathTools.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Math\Noise.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Math\Reorder.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Math\Scissor.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Math\SphericalHarmonics.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vec.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Math\Frustum.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Math.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Quaternion.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\U2WinFile.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\ResourceManager.cpp">
+      <Filter>Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Imaging\Image.cpp">
+      <Filter>Engine\Imaging</Filter>
+    </ClCompile>
+    <ClCompile Include="TBB\CPUUsage.cpp">
+      <Filter>Engine\TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="TBB\DynamicTaskMgrBase.cpp">
+      <Filter>Engine\TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="TBB\TaskMgrCRT.cpp">
+      <Filter>Engine\TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="TBB\TaskMgrSS.cpp">
+      <Filter>Engine\TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="TBB\TaskMgrTBB.cpp">
+      <Filter>Engine\TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="TBB\TaskScheduler.cpp">
+      <Filter>Engine\TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D11\Dx11TextureManager.cpp">
+      <Filter>Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D11\Direct3D11Renderer.cpp">
+      <Filter>Engine\DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Rotation.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Angles.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Unreal3\MemoryBase.cpp">
+      <Filter>Engine\Unreal3</Filter>
+    </ClCompile>
+    <ClCompile Include="Unreal3\UnAnsi.cpp">
+      <Filter>Engine\Unreal3</Filter>
+    </ClCompile>
+    <ClCompile Include="Unreal3\Core.cpp">
+      <Filter>Engine\Unreal3</Filter>
+    </ClCompile>
+    <ClCompile Include="Unreal3\Array.cpp">
+      <Filter>Engine\Unreal3</Filter>
+    </ClCompile>
+    <ClCompile Include="Unreal3\UnMisc.cpp">
+      <Filter>Engine\Unreal3</Filter>
+    </ClCompile>
+    <ClCompile Include="Unreal3\UnName.cpp">
+      <Filter>Engine\Unreal3</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Plane.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\noTransform.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\GaussianElim.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Unreal3\ContainerAllocationPolicies.cpp">
+      <Filter>Engine\Unreal3</Filter>
+    </ClCompile>
+    <ClCompile Include="Unreal3\UnVcWin32.cpp">
+      <Filter>Engine\Unreal3</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Simd.cpp">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Simd_3DNow.cpp">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Simd_AltiVec.cpp">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Simd_Generic.cpp">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Simd_MMX.cpp">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Simd_SSE.cpp">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Simd_SSE2.cpp">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Simd_SSE3.cpp">
+      <Filter>Engine\Math\SIMD</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\DrawVert.cpp">
+      <Filter>Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Str.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D11\fft_c2c.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\JointTransform.cpp">
+      <Filter>Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Sys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Containers\HashIndex.cpp">
+      <Filter>Engine\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\TraceModel.cpp">
+      <Filter>Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Winding.cpp">
+      <Filter>Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MD5Bounds.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Pluecker.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Surface.cpp">
+      <Filter>Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Surface_Patch.cpp">
+      <Filter>Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Surface_Polytope.cpp">
+      <Filter>Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Surface_SweptSpline.cpp">
+      <Filter>Engine\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Lcp.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Util\U2WinFile.inl">
+      <Filter>Engine\Util</Filter>
+    </None>
+  </ItemGroup>
+</Project>

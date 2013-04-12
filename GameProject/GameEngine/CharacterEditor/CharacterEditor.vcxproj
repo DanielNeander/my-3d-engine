@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E3EC3063-3F67-427C-AA13-1055DB886493}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CharacterEditor</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>EditorPCH.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\;..\..\..\;../../../include;../../../extlib/wxWidgets-2.8.12\include;../../../extlib/wxWidgets-2.8.12\include/msvc;../../../extlib/;..\..\..\extlib\tbb\include;..\RecastLib\DebugUtils\Include;..\RecastLib\Detour\Include;..\RecastLib\DetourCrowd\Include;..\RecastLib\Recast\Include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\..\bin;../../../extlib/wxWidgets-2.8.12\lib\vc_lib;..\..\..\extlib\tbb\lib\x86\Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>RecastlibD.lib;ModelLibD.lib;wxbase28d.lib;wxmsw28d_core.lib;bzip2d.lib;EngineCoreD.lib;TerrainLibD.lib;d3dx11.lib;dxerr.lib;dxguid.lib;winmm.lib;comctl32.lib;rpcrt4.lib;d3dcompiler.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;..\..\..\;../../../include;../../../extlib/wxWidgets-2.8.12\include;../../../extlib/wxWidgets-2.8.12\include/msvc;../../../extlib/;..\..\..\extlib\tbb\include;..\RecastLib\DebugUtils\Include;..\RecastLib\Detour\Include;..\RecastLib\DetourCrowd\Include;..\RecastLib\Recast\Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimTreeEditor.cpp" />
+    <ClCompile Include="Bitmaps.cpp" />
+    <ClCompile Include="ButtonBar.cpp" />
+    <ClCompile Include="Buttons.cpp" />
+    <ClCompile Include="Controls.cpp" />
+    <ClCompile Include="DlgGenericComboEntry.cpp" />
+    <ClCompile Include="Docking.cpp" />
+    <ClCompile Include="DockingParent.cpp" />
+    <ClCompile Include="EditorPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EditorPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="EditorUtil.cpp" />
+    <ClCompile Include="EditorViewport.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Properties.cpp" />
+    <ClCompile Include="UnLinkedObjDrawUtils.cpp" />
+    <ClCompile Include="UnLinkedObjEditor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimTreeEditor.h" />
+    <ClInclude Include="Bitmaps.h" />
+    <ClInclude Include="DlgGenericComboEntry.h" />
+    <ClInclude Include="Docking.h" />
+    <ClInclude Include="DockingParent.h" />
+    <ClInclude Include="EditorPCH.h" />
+    <ClInclude Include="EditorUtil.h" />
+    <ClInclude Include="EditorViewport.h" />
+    <ClInclude Include="FCallbackDevice.h" />
+    <ClInclude Include="Properties.h" />
+    <ClInclude Include="ResourceIDs.h" />
+    <ClInclude Include="TrackableWindow.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="UnLinkedObjDrawUtils.h" />
+    <ClInclude Include="UnLinkedObjEditor.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
