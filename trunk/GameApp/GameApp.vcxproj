@@ -1,0 +1,841 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D07395FE-B65A-4E6B-86AA-0CC6872AD1E9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GameApp</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\bin</OutDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\bin</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__WXMSW__;__WXDEBUG__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;..\..\..\;../../../include;../../../extlib/wxWidgets-2.8.12\include;../../../extlib/wxWidgets-2.8.12\include/msvc;../../../extlib/;..\..\..\extlib\tbb41_20121003oss\include;..\..\..\extlib\TBB\include;../../../extlib/bullet/src/;..\RecastLib\DebugUtils\Include;..\RecastLib\Detour\Include;..\RecastLib\DetourCrowd\Include;..\RecastLib\Recast\Include;.\Trees;.\Interfaces;.\BasicTypes</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\..\bin;../../../extlib/wxWidgets-2.8.12\lib\vc_lib;..\..\..\extlib\tbb\lib\x86\Debug;..\..\..\extlib\bullet\lib;..\..\..\extlib\tbb41_20121003oss\lib\ia32\vc10;..\..\..\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>RecastlibD.lib;ModelLibD.lib;wxbase28d.lib;wxmsw28d_core.lib;bzip2d.lib;EngineCoreD.lib;TerrainLibD.lib;d3dx11.lib;dxerr.lib;dxguid.lib;winmm.lib;comctl32.lib;rpcrt4.lib;d3dcompiler.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <LargeAddressAware>false</LargeAddressAware>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;D3DXFX_LARGEADDRESS_HANDLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\;..\..\..\;../../../include;../../../extlib/wxWidgets-2.8.12\include;../../../extlib/wxWidgets-2.8.12\include/msvc;../../../extlib/;..\..\..\extlib\tbb\include;../../../extlib/bullet/src/;..\RecastLib\DebugUtils\Include;..\RecastLib\Detour\Include;..\RecastLib\Recast\Include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\..\bin;../../../extlib/wxWidgets-2.8.12\lib\vc_lib;..\..\..\extlib\tbb\lib\x86\Release;..\..\..\extlib\bullet\lib;..\..\..\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Recastlib.lib;ModelLib.lib;wxbase28.lib;wxmsw28_core.lib;bzip2.lib;libmpq.lib;EngineCore.lib;TerrainLib.lib;d3dx11.lib;dxerr.lib;dxguid.lib;winmm.lib;comctl32.lib;rpcrt4.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\bin\Data\Shaders\BlinnPhong.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\Clouds.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\ColorPSSM.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\ColorSSAO.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\common.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\Diffuse.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\GBuffer.hlsl" />
+    <None Include="..\..\..\Bin\Data\Shaders\Grass.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\Imaging.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\lib.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\Lighting.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\Lighting.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\Lightning.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\Lightning.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\MainEffect.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\Mesh.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\Moon.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\ocean_simulator_vs_ps.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\Particle.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\PostProcessing.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\pssm.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\PSSM.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\PSSM_Instancing.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\PSSM_Skinned.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\PSSM_Skinned_Instancing.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\Quad.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\RenderCascadeScene.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\RenderCascadeShadow.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\SH.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\cascadeshadow.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\SimpleColor.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\SkinColorPSSM.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\SkinColorSSAO.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\SkinnedShader.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\Skydome.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\SNBTerrainPatch.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\AmbientOcclusionTraditionalCS_randomized_viewspace_16.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\AmbientOcclusionTraditionalCS_randomized_viewspace_32.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\DepthPS.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\DepthVS.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\FinalPS.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\FinalVS.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\SSAO\SeparableBilateralCS.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\Common.fxh" />
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\Deformation.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\INoise.fxh" />
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\Picking.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\SkyBox11.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\Stars.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\TerrainTessellation.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\TerrainTessellation\Wireframe.fx" />
+    <None Include="..\..\..\Bin\Data\Shaders\Tree.fx" />
+    <None Include="..\..\..\Bin\Data\Shaders\Tree.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\VolumeClouds.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\VolumeCloudsLightning.hlsl" />
+    <None Include="..\..\..\bin\Data\Shaders\Water.fx" />
+    <None Include="..\..\..\bin\Data\Shaders\WireColor.hlsl" />
+    <None Include="..\..\..\bin\Graphics.sdf" />
+    <None Include="..\..\..\bin\TreeAndFire.cdf" />
+    <None Include="..\..\..\bin\Trees.cdf" />
+    <None Include="..\..\..\bin\U2.gdf" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="GameApp.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico" />
+    <None Include="TArray.inl" />
+    <None Include="Water\CSFFT\fft_512x512_c2c.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActorInput.h" />
+    <ClInclude Include="AI\AIBehaviors.h" />
+    <ClInclude Include="AI\AIBrain.h" />
+    <ClInclude Include="AI\AICommon.h" />
+    <ClInclude Include="AI\AIConfig.h" />
+    <ClInclude Include="AI\AIDraw.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="AI\AIMeshLoader.h" />
+    <ClInclude Include="AI\AIUtil.h" />
+    <ClInclude Include="AI\BaseStates.h" />
+    <ClInclude Include="AI\CellSpacePartition.h" />
+    <ClInclude Include="AI\ChunkyTriMesh.h" />
+    <ClInclude Include="AI\CombatSystem.h" />
+    <ClInclude Include="AI\FSMStateNames.h" />
+    <ClInclude Include="AI\GameWorld.h" />
+    <ClInclude Include="AI\HeightMapGenerator.h" />
+    <ClInclude Include="AI\Intersection2D.h" />
+    <ClInclude Include="AI\InvertedAABox2D.h" />
+    <ClInclude Include="AI\line2d.h" />
+    <ClInclude Include="AI\Matrix2D.h" />
+    <ClInclude Include="AI\Message.h" />
+    <ClInclude Include="AI\MessageNames.h" />
+    <ClInclude Include="AI\MsgRoute.h" />
+    <ClInclude Include="AI\NavDebugDraw.h" />
+    <ClInclude Include="AI\NavigationArea.h" />
+    <ClInclude Include="AI\navigationcell.h" />
+    <ClInclude Include="AI\navigationheap.h" />
+    <ClInclude Include="AI\navigationmesh.h" />
+    <ClInclude Include="AI\navigationpath.h" />
+    <ClInclude Include="AI\navmap.h" />
+    <ClInclude Include="AI\NavSourceMesh.h" />
+    <ClInclude Include="AI\AIPath.h" />
+    <ClInclude Include="AI\NavTestActor.h" />
+    <ClInclude Include="AI\PathManager.h" />
+    <ClInclude Include="AI\PidController.h" />
+    <ClInclude Include="AI\SMDebugLoig.h" />
+    <ClInclude Include="AI\StateMachine.h" />
+    <ClInclude Include="AI\SteeringBehavior.h" />
+    <ClInclude Include="AI\Transform2DFuncs.h" />
+    <ClInclude Include="AI\Wall2D.h" />
+    <ClInclude Include="AnimationComponent.h" />
+    <ClInclude Include="AnimationStateComponent.h" />
+    <ClInclude Include="AnimationSystem.h" />
+    <ClInclude Include="Animation\CurveLines.h" />
+    <ClInclude Include="Animation\IvCurve.h" />
+    <ClInclude Include="Animation\IK.h" />
+    <ClInclude Include="Animation\MD5Anim.h" />
+    <ClInclude Include="Animation\MD5IK.h" />
+    <ClInclude Include="AppSettings.h" />
+    <ClInclude Include="BaseTypes\BaseTypes.h" />
+    <ClInclude Include="basetypes\simpleSingleton.h" />
+    <ClInclude Include="Billboard2.h" />
+    <ClInclude Include="BillboardSet.h" />
+    <ClInclude Include="BitWise.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Canvas.h" />
+    <ClInclude Include="CascadedShadowsManager.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="CLineIndices.h" />
+    <ClInclude Include="Collision\CollisionModel.h" />
+    <ClInclude Include="Collision\CollisionModel_local.h" />
+    <ClInclude Include="Collision\lineintersect_utils.h" />
+    <ClInclude Include="Collision\RayTriIntersection.h" />
+    <ClInclude Include="ColorValue.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="ConfigFile.h" />
+    <ClInclude Include="CPointIndices.h" />
+    <ClInclude Include="CRC32.h" />
+    <ClInclude Include="CTriangleIndices.h" />
+    <ClInclude Include="CurveEditor.h" />
+    <ClInclude Include="CurveObjects.h" />
+    <ClInclude Include="DamageAnimator.h" />
+    <ClInclude Include="DamageModel.h" />
+    <ClInclude Include="DamageZone.h" />
+    <ClInclude Include="DemoSetup.h" />
+    <ClInclude Include="DeviceStates.h" />
+    <ClInclude Include="Dx11Util.h" />
+    <ClInclude Include="Effects\CameraShakeEffect.h" />
+    <ClInclude Include="Effects\ChainLightning.h" />
+    <ClInclude Include="Effects\ColorRenderBuffer.h" />
+    <ClInclude Include="Effects\EffectSystem.h" />
+    <ClInclude Include="Effects\EffectVariable.h" />
+    <ClInclude Include="Effects\Geometry.h" />
+    <ClInclude Include="Effects\LightningEffect.h" />
+    <ClInclude Include="Effects\LightningRenderer.h" />
+    <ClInclude Include="Effects\LightningSeed.h" />
+    <ClInclude Include="Effects\PathLightning.h" />
+    <ClInclude Include="Effects\TrailEffect.h" />
+    <ClInclude Include="EventSystem.h" />
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="Framework\ChangeControlManager.h" />
+    <ClInclude Include="Framework\DebugWindow.h" />
+    <ClInclude Include="Framework\EnvironmentManager.h" />
+    <ClInclude Include="Framework\Framework.h" />
+    <ClInclude Include="Framework\FrameworkAPI.h" />
+    <ClInclude Include="Framework\Instrumentation.h" />
+    <ClInclude Include="Framework\IttNotify.h" />
+    <ClInclude Include="Framework\MemoryManager.h" />
+    <ClInclude Include="Framework\PlatformManager.h" />
+    <ClInclude Include="Framework\Scheduler.h" />
+    <ClInclude Include="Framework\ServiceManager.h" />
+    <ClInclude Include="Framework\SystemManager.h" />
+    <ClInclude Include="Framework\TaskManager.h" />
+    <ClInclude Include="Framework\TaskManagerTP.h" />
+    <ClInclude Include="Framework\ThreadPool.h" />
+    <ClInclude Include="Framework\Universal.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="Fonts.h" />
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Font\Dx11TextHelper.h" />
+    <ClInclude Include="FSM.h" />
+    <ClInclude Include="BaseCamera.h" />
+    <ClInclude Include="GameClasses.h" />
+    <ClInclude Include="GameFramework.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="GameMath.h" />
+    <ClInclude Include="GameObjectAttribute.h" />
+    <ClInclude Include="GameObjectComponent.h" />
+    <ClInclude Include="GameObjectManager.h" />
+    <ClInclude Include="GameObjectUtil.h" />
+    <ClInclude Include="Geometry\GeomObject.h" />
+    <ClInclude Include="Geometry\GeomScene.h" />
+    <ClInclude Include="Geometry\GeomSystem.h" />
+    <ClInclude Include="GraphicsScene.h" />
+    <ClInclude Include="GeometryDX11.h" />
+    <ClInclude Include="GeometryLoaderDX11.h" />
+    <ClInclude Include="GraphicsObject.h" />
+    <ClInclude Include="GraphicsTypes.h" />
+    <ClInclude Include="GraphicSystem.h" />
+    <ClInclude Include="GraphicsTask.h" />
+    <ClInclude Include="Input\InputObject.h" />
+    <ClInclude Include="Input\InputScene.h" />
+    <ClInclude Include="Input\InputSystem.h" />
+    <ClInclude Include="Input\InputTask.h" />
+    <ClInclude Include="InterfacePointers.h" />
+    <ClInclude Include="Interfaces\Area.h" />
+    <ClInclude Include="Interfaces\Behavior.h" />
+    <ClInclude Include="Interfaces\ChangeControl.h" />
+    <ClInclude Include="Interfaces\Contact.h" />
+    <ClInclude Include="Interfaces\Environment.h" />
+    <ClInclude Include="Interfaces\Generic.h" />
+    <ClInclude Include="Interfaces\Geometry.h" />
+    <ClInclude Include="Interfaces\Graphics.h" />
+    <ClInclude Include="Interfaces\GUI.h" />
+    <ClInclude Include="Interfaces\Interface.h" />
+    <ClInclude Include="Interfaces\Move.h" />
+    <ClInclude Include="Interfaces\Platform.h" />
+    <ClInclude Include="Interfaces\Property.h" />
+    <ClInclude Include="Interfaces\Service.h" />
+    <ClInclude Include="Interfaces\System.h" />
+    <ClInclude Include="Interfaces\SystemTypes.h" />
+    <ClInclude Include="Interfaces\Target.h" />
+    <ClInclude Include="Interfaces\TaskManager.h" />
+    <ClInclude Include="LIDRenderer.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="MD5\BitMsg.h" />
+    <ClInclude Include="MD5\CmdArgs.h" />
+    <ClInclude Include="MD5\CmdSystem.h" />
+    <ClInclude Include="MD5\CVarSystem.h" />
+    <ClInclude Include="MD5\DeclAF.h" />
+    <ClInclude Include="MD5\DeclManager.h" />
+    <ClInclude Include="MD5\Dict.h" />
+    <ClInclude Include="MD5\MD5AF.h" />
+    <ClInclude Include="MD5\MD5AFEntity.h" />
+    <ClInclude Include="MD5\MD5AI.h" />
+    <ClInclude Include="MD5\MD5AI_define.h" />
+    <ClInclude Include="MD5\MD5Event.h" />
+    <ClInclude Include="MD5\File.h" />
+    <ClInclude Include="MD5\Lexer.h" />
+    <ClInclude Include="MD5\Md5Class.h" />
+    <ClInclude Include="MD5\MD5Entity.h" />
+    <ClInclude Include="MD5\MD5Game.h" />
+    <ClInclude Include="MD5\MD5Image.h" />
+    <ClInclude Include="MD5\MD5MapFile.h" />
+    <ClInclude Include="MD5\MD5Material.h" />
+    <ClInclude Include="MD5\MD5Misc.h" />
+    <ClInclude Include="MD5\MD5Model.h" />
+    <ClInclude Include="MD5\MD5ModelManager.h" />
+    <ClInclude Include="MD5\MD5Actor.h" />
+    <ClInclude Include="MD5\MD5Renderer.h" />
+    <ClInclude Include="MD5\MD5Scene.h" />
+    <ClInclude Include="MD5\MD5SysCVar.h" />
+    <ClInclude Include="MD5\MD5Timer.h" />
+    <ClInclude Include="MD5\MD5Triangle.h" />
+    <ClInclude Include="MD5\Parser.h" />
+    <ClInclude Include="MD5\Token.h" />
+    <ClInclude Include="MD5\Unzip.h" />
+    <ClInclude Include="MD5\UsercmdGen.h" />
+    <ClInclude Include="NonCharObjects.h" />
+    <ClInclude Include="ObjectMesh.h" />
+    <ClInclude Include="Objects\BBGrassPatch.h" />
+    <ClInclude Include="Objects\Billboard.h" />
+    <ClInclude Include="Objects\DecorationSystem.h" />
+    <ClInclude Include="Objects\InstancedBillboard.h" />
+    <ClInclude Include="Particle\cyclone_physics.h" />
+    <ClInclude Include="Physics\Clip.h" />
+    <ClInclude Include="Physics\Force.h" />
+    <ClInclude Include="Physics\Physics.h" />
+    <ClInclude Include="Physics\Physics_Actor.h" />
+    <ClInclude Include="Physics\Physics_AF.h" />
+    <ClInclude Include="Physics\Physics_Base.h" />
+    <ClInclude Include="Physics\Physics_Monster.h" />
+    <ClInclude Include="Physics\Physics_Parametric.h" />
+    <ClInclude Include="Physics\Physics_Player.h" />
+    <ClInclude Include="Physics\Physics_Static.h" />
+    <ClInclude Include="Physics\Push.h" />
+    <ClInclude Include="ProceduralFire\ColdParticle.h" />
+    <ClInclude Include="ProceduralFire\Fire.h" />
+    <ClInclude Include="ProceduralFire\FireBall.h" />
+    <ClInclude Include="ProceduralFire\FireObject.h" />
+    <ClInclude Include="ProceduralFire\FirePatch.h" />
+    <ClInclude Include="ProceduralFire\FireScene.h" />
+    <ClInclude Include="ProceduralFire\FireSystem.h" />
+    <ClInclude Include="ProceduralFire\FireTask.h" />
+    <ClInclude Include="ProceduralFire\HeatParticle.h" />
+    <ClInclude Include="ProceduralFire\PSystem.h" />
+    <ClInclude Include="ProceduralTrees\TreeObject.h" />
+    <ClInclude Include="ProceduralTrees\TreeScene.h" />
+    <ClInclude Include="ProceduralTrees\TreeSystem.h" />
+    <ClInclude Include="ProceduralTrees\TreeTask.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="Resource\DeviceResource.h" />
+    <ClInclude Include="Resource\MeshBundle.h" />
+    <ClInclude Include="Resource\Proxies.h" />
+    <ClInclude Include="Resource\ReloadableBundle.h" />
+    <ClInclude Include="Resource\ResourceBundle.h" />
+    <ClInclude Include="Resource\ResourceId.h" />
+    <ClInclude Include="Resource\StorageResourceBundle.h" />
+    <ClInclude Include="SelectTool.h" />
+    <ClInclude Include="Terrain\SNBTerrainMaterial.h" />
+    <ClInclude Include="TGALoader.h" />
+    <ClInclude Include="Trees\aabb.h" />
+    <ClInclude Include="Trees\Branch.h" />
+    <ClInclude Include="Trees\Canopy.h" />
+    <ClInclude Include="Trees\FatTreeGrammar.h" />
+    <ClInclude Include="Trees\GrammarDef.h" />
+    <ClInclude Include="Trees\Observer.h" />
+    <ClInclude Include="Trees\PlainTreeGrammar.h" />
+    <ClInclude Include="Trees\ScratchTreeGrammar.h" />
+    <ClInclude Include="Trees\segment.h" />
+    <ClInclude Include="Trees\SpeciesGrammar.h" />
+    <ClInclude Include="Trees\SpikeTreeGrammar.h" />
+    <ClInclude Include="Trees\Tree.h" />
+    <ClInclude Include="Trees\TreeGrammar1.h" />
+    <ClInclude Include="Trees\Vector3.h" />
+    <ClInclude Include="Trees\Vertex.h" />
+    <ClInclude Include="Util\DrawUtil.h" />
+    <ClInclude Include="Util\StringHelper.h" />
+    <ClInclude Include="VolLightRenderer.h" />
+    <ClInclude Include="Light\imagePRT.h" />
+    <ClInclude Include="Light\LightMap.h" />
+    <ClInclude Include="Light\SSAORenderer.h" />
+    <ClInclude Include="Light\utils\pfmreader.h" />
+    <ClInclude Include="LWOFile.h" />
+    <ClInclude Include="M2Edit.h" />
+    <ClInclude Include="M2EffectRender.h" />
+    <ClInclude Include="M2Equipment.h" />
+    <ClInclude Include="M2Mesh.h" />
+    <ClInclude Include="M2Object.h" />
+    <ClInclude Include="MacroDefine.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Mesh_D3D11.h" />
+    <ClInclude Include="ms3dspec.h" />
+    <ClInclude Include="ObjLoader.h" />
+    <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="Physics\Body.h" />
+    <ClInclude Include="Physics\CoordinateFrame.h" />
+    <ClInclude Include="PixelFormat.h" />
+    <ClInclude Include="PostProcessor.h" />
+    <ClInclude Include="PostProcessorBase.h" />
+    <ClInclude Include="PSSMShadowMapDx11.h" />
+    <ClInclude Include="RadixSort.h" />
+    <ClInclude Include="Rain.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RTTI.h" />
+    <ClInclude Include="SceneNode.h" />
+    <ClInclude Include="SceneObject.h" />
+    <ClInclude Include="SDKMeshLoader.h" />
+    <ClInclude Include="SH.h" />
+    <ClInclude Include="ShaderCompilation.h" />
+    <ClInclude Include="ShadowCamera.h" />
+    <ClInclude Include="ShadowMap.h" />
+    <ClInclude Include="ShadowSampleMisc.h" />
+    <ClInclude Include="Sky\AtmosphereManager.h" />
+    <ClInclude Include="Sky\BasicController.h" />
+    <ClInclude Include="Sky\CloudsManager.h" />
+    <ClInclude Include="Sky\ColorGradient.h" />
+    <ClInclude Include="Sky\Controller.h" />
+    <ClInclude Include="Sky\DataManager.h" />
+    <ClInclude Include="Sky\Ellipsoid.h" />
+    <ClInclude Include="Sky\FastFakeRandom.h" />
+    <ClInclude Include="Sky\GeometryBlock.h" />
+    <ClInclude Include="Sky\GeometryManager.h" />
+    <ClInclude Include="Sky\Lightning.h" />
+    <ClInclude Include="Sky\LightningManager.h" />
+    <ClInclude Include="Sky\MoonManager.h" />
+    <ClInclude Include="Sky\SkydomeMesh.h" />
+    <ClInclude Include="Sky\VClouds.h" />
+    <ClInclude Include="Sky\VCloudSkySystem.h" />
+    <ClInclude Include="Sky\VCloudsManager.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TArray.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="Terrain\AdaptiveModelDX11Render.h" />
+    <ClInclude Include="Terrain\BitStream.h" />
+    <ClInclude Include="Terrain\BlockBasedAdaptiveModel.h" />
+    <ClInclude Include="Terrain\DynamicQuadTreeNode.h" />
+    <ClInclude Include="Terrain\ElevationDataSource.h" />
+    <ClInclude Include="Terrain\Errors.h" />
+    <ClInclude Include="Terrain\HierarchyArray.h" />
+    <ClInclude Include="Terrain\PatchCache.h" />
+    <ClInclude Include="Terrain\RQTTriangulation.h" />
+    <ClInclude Include="Terrain\SkyBox11.h" />
+    <ClInclude Include="Terrain\SNBTerrainConfigFile.h" />
+    <ClInclude Include="Terrain\Stars.h" />
+    <ClInclude Include="Terrain\TerrainPatch.h" />
+    <ClInclude Include="Terrain\TileRing.h" />
+    <ClInclude Include="Terrain\TriangDataSource.h" />
+    <ClInclude Include="TestObjects.h" />
+    <ClInclude Include="Texture\Clipmap.h" />
+    <ClInclude Include="Texture\FBM.h" />
+    <ClInclude Include="Texture\JPEG_Decoder.h" />
+    <ClInclude Include="Texture\JPEG_Preprocessor.h" />
+    <ClInclude Include="U2Light.h" />
+    <ClInclude Include="UnColor.h" />
+    <ClInclude Include="UnMath.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="Util\CommandSystem.h" />
+    <ClInclude Include="Util\EffectUtil.h" />
+    <ClInclude Include="VertexElementDX11.h" />
+    <ClInclude Include="VolSpotLightRender.h" />
+    <ClInclude Include="Water\CSFFT\fft_512x512.h" />
+    <ClInclude Include="Water\ocean_simulator.h" />
+    <ClInclude Include="WeakPointer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="ActorInput.cpp" />
+    <ClCompile Include="AI\AIBehaviors.cpp" />
+    <ClCompile Include="AI\AIBrain.cpp" />
+    <ClCompile Include="AI\AIConfig.cpp" />
+    <ClCompile Include="AI\AIDraw.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="AI\AIMeshLoader.cpp" />
+    <ClCompile Include="AI\BaseStates.cpp" />
+    <ClCompile Include="AI\ChunkyTriMesh.cpp" />
+    <ClCompile Include="AI\CombatSystem.cpp" />
+    <ClCompile Include="AI\GameEntityTest.cpp" />
+    <ClCompile Include="AI\GameWorld.cpp" />
+    <ClCompile Include="AI\navmap.cpp" />
+    <ClCompile Include="AI\MsgRoute.cpp" />
+    <ClCompile Include="AI\NavDebugDraw.cpp" />
+    <ClCompile Include="AI\navigationcell.cpp" />
+    <ClCompile Include="AI\navigationmesh.cpp" />
+    <ClCompile Include="AI\NavSourceMesh.cpp" />
+    <ClCompile Include="AI\NavMeshTest.cpp" />
+    <ClCompile Include="AI\AIPath.cpp" />
+    <ClCompile Include="AI\PathManager.cpp" />
+    <ClCompile Include="AI\PidController.cpp" />
+    <ClCompile Include="AI\SMDebugLog.cpp" />
+    <ClCompile Include="AI\StateMachine.cpp" />
+    <ClCompile Include="AI\SteeringBehavior.cpp" />
+    <ClCompile Include="AnimationComponent.cpp" />
+    <ClCompile Include="AnimationStateComponent.cpp" />
+    <ClCompile Include="AnimationSystem.cpp" />
+    <ClCompile Include="Animation\CurveLines.cpp" />
+    <ClCompile Include="App_physics.cpp" />
+    <ClCompile Include="BaseTypes\Debug.cpp" />
+    <ClCompile Include="BaseTypes\Math.cpp" />
+    <ClCompile Include="BaseTypes\MathX.cpp" />
+    <ClCompile Include="BaseTypes\simpleSingleton.cpp" />
+    <ClCompile Include="BaseTypes\Synchronization.cpp" />
+    <ClCompile Include="BaseTypes\Thread.cpp" />
+    <ClCompile Include="BaseTypes\UnitAllocator.cpp" />
+    <ClCompile Include="Collision\RayTriIntersection.cpp" />
+    <ClCompile Include="Collision\ShereConeIntersectionTest.cpp" />
+    <ClCompile Include="CurveEditor.cpp" />
+    <ClCompile Include="CurveObjects.cpp" />
+    <ClCompile Include="Framework\ChangeControlManager.cpp" />
+    <ClCompile Include="Framework\DebugWindow.cpp" />
+    <ClCompile Include="Framework\EnvironmentManager.cpp" />
+    <ClCompile Include="Framework\Framework.cpp" />
+    <ClCompile Include="Framework\Instrumentation.cpp" />
+    <ClCompile Include="Framework\MemoryManager.cpp" />
+    <ClCompile Include="Framework\PlatformManager.cpp" />
+    <ClCompile Include="Framework\Scheduler.cpp" />
+    <ClCompile Include="Framework\ServiceManager.cpp" />
+    <ClCompile Include="Framework\SystemManager.cpp" />
+    <ClCompile Include="Framework\TaskManagerTP.cpp" />
+    <ClCompile Include="Framework\ThreadPool.cpp" />
+    <ClCompile Include="Framework\Universal.cpp" />
+    <ClCompile Include="GameFramework.cpp" />
+    <ClCompile Include="Geometry\GeomObject.cpp" />
+    <ClCompile Include="Geometry\GeomScene.cpp" />
+    <ClCompile Include="Geometry\GeomSystem.cpp" />
+    <ClCompile Include="GraphicsObject.cpp" />
+    <ClCompile Include="GraphicSystem.cpp" />
+    <ClCompile Include="GraphicsTask.cpp" />
+    <ClCompile Include="Input\InputObject.cpp" />
+    <ClCompile Include="Input\InputScene.cpp" />
+    <ClCompile Include="Input\InputSystem.cpp" />
+    <ClCompile Include="Input\InputTask.cpp" />
+    <ClCompile Include="Interfaces\ChangeControl.cpp" />
+    <ClCompile Include="Interfaces\Property.cpp" />
+    <ClCompile Include="Interfaces\System.cpp" />
+    <ClCompile Include="MD5Test.cpp" />
+    <ClCompile Include="Animation\IvCurve.cpp" />
+    <ClCompile Include="Animation\Ik.cpp" />
+    <ClCompile Include="Animation\Md5Anim.cpp" />
+    <ClCompile Include="Animation\MD5Anim_Blend.cpp" />
+    <ClCompile Include="Animation\MD5Ik.cpp" />
+    <ClCompile Include="Anim_Blend.cpp" />
+    <ClCompile Include="AppEdit.cpp" />
+    <ClCompile Include="AppSettings.cpp" />
+    <ClCompile Include="Billboard2.cpp" />
+    <ClCompile Include="BillboardSet.cpp" />
+    <ClCompile Include="Canvas.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Collision\CollisionModel_contacts.cpp" />
+    <ClCompile Include="Collision\CollisionModel_contents.cpp" />
+    <ClCompile Include="Collision\CollisionModel_debug.cpp" />
+    <ClCompile Include="Collision\CollisionModel_files.cpp" />
+    <ClCompile Include="Collision\CollisionModel_load.cpp" />
+    <ClCompile Include="Collision\CollisionModel_rotate.cpp" />
+    <ClCompile Include="Collision\CollisionModel_trace.cpp" />
+    <ClCompile Include="Collision\CollisionModel_translate.cpp" />
+    <ClCompile Include="CRC32.cpp" />
+    <ClCompile Include="DamageAnimator.cpp" />
+    <ClCompile Include="DamageModel.cpp" />
+    <ClCompile Include="DamageZone.cpp" />
+    <ClCompile Include="MathTest.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraTest.cpp" />
+    <ClCompile Include="CascadedShadowsManager.cpp" />
+    <ClCompile Include="CascadedShadowTest.cpp" />
+    <ClCompile Include="CLineIndices.cpp" />
+    <ClCompile Include="ClipmapTest.cpp" />
+    <ClCompile Include="Collision\IntersectionTest.cpp" />
+    <ClCompile Include="Collision\lineintersect_utils.cpp" />
+    <ClCompile Include="ColorValue.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="ConfigFile.cpp" />
+    <ClCompile Include="CPointIndices.cpp" />
+    <ClCompile Include="CTriangleIndices.cpp" />
+    <ClCompile Include="DeferredParticleTest.cpp" />
+    <ClCompile Include="DeferredRenderTest.cpp" />
+    <ClCompile Include="DemoSetup.cpp" />
+    <ClCompile Include="DeviceStates.cpp" />
+    <ClCompile Include="Dx11TerrainTests.cpp" />
+    <ClCompile Include="Dx11Util.cpp" />
+    <ClCompile Include="Effects\CameraShakeEffect.cpp" />
+    <ClCompile Include="Effects\ChainLightning.cpp" />
+    <ClCompile Include="Effects\ColorRenderBuffer.cpp" />
+    <ClCompile Include="Effects\EffectSystem.cpp" />
+    <ClCompile Include="Effects\Geometry.cpp" />
+    <ClCompile Include="Effects\LightningEffect.cpp" />
+    <ClCompile Include="Effects\LightningRenderer.cpp" />
+    <ClCompile Include="Effects\LightningSeed.cpp" />
+    <ClCompile Include="Effects\PathLightning.cpp" />
+    <ClCompile Include="Effects\TrailEffect.cpp" />
+    <ClCompile Include="EventSystem.cpp" />
+    <ClCompile Include="FontTests.cpp" />
+    <ClCompile Include="Font\Dx11TextHelper.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="FSM.cpp" />
+    <ClCompile Include="BaseCamera.cpp" />
+    <ClCompile Include="GameChar.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObjectAttribute.cpp" />
+    <ClCompile Include="GameObjectComponent.cpp" />
+    <ClCompile Include="GameObjectManager.cpp" />
+    <ClCompile Include="GameObjectUtil.cpp" />
+    <ClCompile Include="GraphicsScene.cpp" />
+    <ClCompile Include="GeometryDX11.cpp" />
+    <ClCompile Include="GeometryLoaderDX11.cpp" />
+    <ClCompile Include="GITest.cpp" />
+    <ClCompile Include="GraphicsTypes.cpp" />
+    <ClCompile Include="IndexedDeferredTest.cpp" />
+    <ClCompile Include="LIDRenderer.cpp" />
+    <ClCompile Include="LightningTests.cpp" />
+    <ClCompile Include="MD5\BitMsg.cpp" />
+    <ClCompile Include="MD5\CmdArgs.cpp" />
+    <ClCompile Include="MD5\CmdSystem.cpp" />
+    <ClCompile Include="MD5\CVarSystem.cpp" />
+    <ClCompile Include="MD5\DeclAF.cpp" />
+    <ClCompile Include="MD5\DeclManager.cpp" />
+    <ClCompile Include="MD5\Dict.cpp" />
+    <ClCompile Include="MD5\MD5Actor.cpp" />
+    <ClCompile Include="MD5\MD5AF.cpp" />
+    <ClCompile Include="MD5\MD5AFEntity.cpp" />
+    <ClCompile Include="MD5\MD5AI.cpp" />
+    <ClCompile Include="MD5\MD5AI_events.cpp" />
+    <ClCompile Include="MD5\MD5Entity.cpp" />
+    <ClCompile Include="MD5\MD5Event.cpp" />
+    <ClCompile Include="MD5\File.cpp" />
+    <ClCompile Include="MD5\Lexer.cpp" />
+    <ClCompile Include="MD5\MD5Class.cpp" />
+    <ClCompile Include="MD5\MD5Game.cpp" />
+    <ClCompile Include="MD5\MD5Image.cpp" />
+    <ClCompile Include="MD5\MD5MapFile.cpp" />
+    <ClCompile Include="MD5\MD5Material.cpp" />
+    <ClCompile Include="MD5\MD5Misc.cpp" />
+    <ClCompile Include="MD5\MD5Model.cpp" />
+    <ClCompile Include="MD5\MD5ModelManager.cpp" />
+    <ClCompile Include="MD5\MD5Renderer.cpp" />
+    <ClCompile Include="MD5\MD5Scene.cpp" />
+    <ClCompile Include="MD5\MD5SysCVar.cpp" />
+    <ClCompile Include="MD5\MD5Timer.cpp" />
+    <ClCompile Include="MD5\MD5Triangle.cpp" />
+    <ClCompile Include="MD5\Parser.cpp" />
+    <ClCompile Include="MD5\Token.cpp" />
+    <ClCompile Include="MD5\Unzip.cpp" />
+    <ClCompile Include="MD5\UsercmdGen.cpp" />
+    <ClCompile Include="NonCharObjects.cpp" />
+    <ClCompile Include="ObjectMesh.cpp" />
+    <ClCompile Include="Objects\BBGrassPatch.cpp" />
+    <ClCompile Include="Objects\Billboard.cpp" />
+    <ClCompile Include="Objects\DecorationSystem.cpp" />
+    <ClCompile Include="Objects\InstancedBillboard.cpp" />
+    <ClCompile Include="Particle\cyclone_physics.cpp" />
+    <ClCompile Include="Physics\Clip.cpp" />
+    <ClCompile Include="Physics\Force.cpp" />
+    <ClCompile Include="Physics\Physics.cpp" />
+    <ClCompile Include="Physics\Physics_Actor.cpp" />
+    <ClCompile Include="Physics\Physics_AF.cpp" />
+    <ClCompile Include="Physics\Physics_Base.cpp" />
+    <ClCompile Include="Physics\Physics_Monster.cpp" />
+    <ClCompile Include="Physics\Physics_Parametric.cpp" />
+    <ClCompile Include="Physics\Physics_Player.cpp" />
+    <ClCompile Include="Physics\Physics_Static.cpp" />
+    <ClCompile Include="Physics\Push.cpp" />
+    <ClCompile Include="ProceduralFire\ColdParticle.cpp" />
+    <ClCompile Include="ProceduralFire\Fire.cpp" />
+    <ClCompile Include="ProceduralFire\FireBall.cpp" />
+    <ClCompile Include="ProceduralFire\FireObject.cpp" />
+    <ClCompile Include="ProceduralFire\FirePatch.cpp" />
+    <ClCompile Include="ProceduralFire\FireScene.cpp" />
+    <ClCompile Include="ProceduralFire\FireSystem.cpp" />
+    <ClCompile Include="ProceduralFire\FireTask.cpp" />
+    <ClCompile Include="ProceduralFire\HeatParticle.cpp" />
+    <ClCompile Include="ProceduralFire\PSystem.cpp" />
+    <ClCompile Include="ProceduralTrees\TreeObject.cpp" />
+    <ClCompile Include="ProceduralTrees\TreeScene.cpp" />
+    <ClCompile Include="ProceduralTrees\TreeSystem.cpp" />
+    <ClCompile Include="ProceduralTrees\TreeTask.cpp" />
+    <ClCompile Include="ProjecTile.cpp" />
+    <ClCompile Include="Resource\MeshBundle.cpp" />
+    <ClCompile Include="SelectionTool.cpp" />
+    <ClCompile Include="Terrain\SNBTerrainMaterial.cpp" />
+    <ClCompile Include="Trees\Branch.cpp" />
+    <ClCompile Include="Trees\Canopy.cpp" />
+    <ClCompile Include="Trees\FatTreeGrammar.cpp" />
+    <ClCompile Include="Trees\Observer.cpp" />
+    <ClCompile Include="Trees\PlainTreeGrammar.cpp" />
+    <ClCompile Include="Trees\ScratchTreeGrammar.cpp" />
+    <ClCompile Include="Trees\Segment.cpp" />
+    <ClCompile Include="Trees\SpeciesGrammar.cpp" />
+    <ClCompile Include="Trees\SpikeTreeGrammar.cpp" />
+    <ClCompile Include="Trees\Tree.cpp" />
+    <ClCompile Include="Trees\TreeGrammar1.cpp" />
+    <ClCompile Include="Trees\Vector3.cpp" />
+    <ClCompile Include="Trees\Vertex.cpp" />
+    <ClCompile Include="U2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UnMath.cpp" />
+    <ClCompile Include="Util\DrawUtil.cpp" />
+    <ClCompile Include="Util\StringHelper.cpp" />
+    <ClCompile Include="VolLightRenderer.cpp" />
+    <ClCompile Include="Light\imagePRT.cpp" />
+    <ClCompile Include="Light\Lightmap.cpp" />
+    <ClCompile Include="Light\SSAORenderer.cpp" />
+    <ClCompile Include="Light\utils\pfmreader.cpp" />
+    <ClCompile Include="M2Edit.cpp" />
+    <ClCompile Include="M2EffectRender.cpp" />
+    <ClCompile Include="M2Equipment.cpp" />
+    <ClCompile Include="M2Mesh.cpp" />
+    <ClCompile Include="M2Object.cpp" />
+    <ClCompile Include="M2ParticleSystemTest.cpp" />
+    <ClCompile Include="M2RibbonEmiiterTest.cpp" />
+    <ClCompile Include="M2SpellEffects.cpp" />
+    <ClCompile Include="MultiThreadedTest.cpp" />
+    <ClCompile Include="ObjLoader.cpp" />
+    <ClCompile Include="OcculsionCullingTest.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="Physics\Body.cpp" />
+    <ClCompile Include="Physics\CoordinateFrame.cpp" />
+    <ClCompile Include="Physics\PhysicsTest.cpp" />
+    <ClCompile Include="PixelFormat.cpp" />
+    <ClCompile Include="PostProcessor.cpp" />
+    <ClCompile Include="PostProcessorBase.cpp" />
+    <ClCompile Include="Rain.cpp" />
+    <ClCompile Include="RTTI.cpp" />
+    <ClCompile Include="SceneNode.cpp" />
+    <ClCompile Include="SDKMeshLoader.cpp" />
+    <ClCompile Include="SH.cpp" />
+    <ClCompile Include="ShaderCompilation.cpp" />
+    <ClCompile Include="ShadowCamera.cpp" />
+    <ClCompile Include="ShadowMapTest.cpp" />
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LWOFile.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Mesh_D3D11.cpp" />
+    <ClCompile Include="PSSMShadowMapDx11.cpp" />
+    <ClCompile Include="SceneObject.cpp" />
+    <ClCompile Include="SkyTest.cpp" />
+    <ClCompile Include="Sky\AtmosphereManager.cpp" />
+    <ClCompile Include="Sky\BasicController.cpp" />
+    <ClCompile Include="Sky\CloudsManager.cpp" />
+    <ClCompile Include="Sky\ColorGradient.cpp" />
+    <ClCompile Include="Sky\DataManager.cpp" />
+    <ClCompile Include="Sky\Ellipsoid.cpp" />
+    <ClCompile Include="Sky\FastFakeRandom.cpp" />
+    <ClCompile Include="Sky\GeometryBlock.cpp" />
+    <ClCompile Include="Sky\GeometryManager.cpp" />
+    <ClCompile Include="Sky\Lightning.cpp" />
+    <ClCompile Include="Sky\LightningManager.cpp" />
+    <ClCompile Include="Sky\MoonManager.cpp" />
+    <ClCompile Include="Sky\SkydomeMesh.cpp" />
+    <ClCompile Include="Sky\VClouds.cpp" />
+    <ClCompile Include="Sky\VCloudSkySystem.cpp" />
+    <ClCompile Include="Sky\VCloudsManager.cpp" />
+    <ClCompile Include="SNBTerrainTest.cpp" />
+    <ClCompile Include="SSAOTest.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="Terrain\AdaptiveModelDX11Render.cpp" />
+    <ClCompile Include="Terrain\BitStream.cpp" />
+    <ClCompile Include="Terrain\BlockBasedAdaptiveModel.cpp" />
+    <ClCompile Include="Terrain\ElevationDataSource.cpp" />
+    <ClCompile Include="Terrain\PatchCache.cpp" />
+    <ClCompile Include="Terrain\RQTTriangulation.cpp" />
+    <ClCompile Include="Terrain\SkyBox11.cpp" />
+    <ClCompile Include="Terrain\SNBTerrainConfigFile.cpp" />
+    <ClCompile Include="Terrain\Stars.cpp" />
+    <ClCompile Include="Terrain\TerrainPatch.cpp" />
+    <ClCompile Include="Terrain\TileRing.cpp" />
+    <ClCompile Include="Terrain\TriangDataSource.cpp" />
+    <ClCompile Include="TestObjects.cpp" />
+    <ClCompile Include="Texture\Clipmap.cpp" />
+    <ClCompile Include="Texture\JPEG_Decoder.cpp" />
+    <ClCompile Include="Texture\JPEG_Preprocessor.cpp" />
+    <ClCompile Include="U2Light.cpp" />
+    <ClCompile Include="UnColor.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="Util\CommandSystem.cpp" />
+    <ClCompile Include="Util\EffectUtil.cpp" />
+    <ClCompile Include="VertexElementDX11.cpp" />
+    <ClCompile Include="VolumeLightTest.cpp" />
+    <ClCompile Include="WaterTest.cpp" />
+    <ClCompile Include="Water\CSFFT\fft_512x512_c2c.cpp" />
+    <ClCompile Include="Water\ocean_simulator.cpp" />
+    <ClCompile Include="Water\render.cpp" />
+    <ClCompile Include="WindowsBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameApp.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
