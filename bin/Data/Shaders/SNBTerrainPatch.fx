@@ -22,7 +22,7 @@
 #endif
 
 #ifndef ENABLE_HEIGHT_MAP_MORPH
-#   define ENABLE_HEIGHT_MAP_MORPH 1
+#   define ENABLE_HEIGHT_MAP_MORPH 0	// 문제 있음..
 #endif
 
 #ifndef ENABLE_NORMAL_MAP_MORPH
@@ -372,7 +372,7 @@ float3 GetVertexCoords(int2 in_VertexIJ,
     fHeight = lerp(fHeight, fParentHeight, fMorphCoeff);
 #endif
 
-    fHeight; // -= fZShift;
+    fHeight -= fZShift;
     
     VertexCoords.xy = float2(in_VertexIJ) * PatchXYScale;
     VertexCoords.z = fHeight;
@@ -1015,10 +1015,10 @@ float3 RenderPatchPS(RenderPatchVS_Output In) : SV_Target
 
     //float DiffuseIllumination = max(0, dot(Normal.xyz, g_vDirectionOnSun.xyz));
 
-    //float3 lightColor = g_vSunColorAndIntensityAtGround.rgb;
+    float3 lightColor = g_vSunColorAndIntensityAtGround.rgb;
 	//return SurfaceColor.rgb*(DiffuseIllumination*lightColor + g_vAmbientLight.rgb);
 	//return float4(SurfaceColor.rgb, 1);
-	float3 lightColor = GetDeferredLightColor(In, SurfaceColor.rgb, Normal);			
+	//float3 lightColor = GetDeferredLightColor(In, SurfaceColor.rgb, Normal);			
 	  
 #if ENABLE_CASCASED_SHADOW
 	float4 vVisualizeCascadeColor = GetCascadedShadowColor(In.vTexShadow, In.DepthVS, In.vInterpPos);
