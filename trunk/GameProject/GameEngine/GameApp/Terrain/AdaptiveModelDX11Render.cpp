@@ -35,7 +35,7 @@ extern std::vector<mat4> mTextureMatrix;
 CAdaptiveModelDX11Render::SRenderParams::SRenderParams() : 
     m_TexturingMode(TM_INDEX_MASK),
 
-    m_bEnableHeightMapMorph(true),
+    m_bEnableHeightMapMorph(false),	// 버그 있음..
     m_bEnableNormalMapMorph(true),
 
     m_bAsyncModeWorkaround(true),
@@ -813,8 +813,8 @@ int CAdaptiveModelDX11Render::RenderPatches(const D3DXMATRIX &WorldViewProjMatr,
 	//gClipMap2->recenter(camPos.x / (128 * 32) , camPos.z / (128 * 32));
 	//gClipMap2->updateEffectParams();
 
-	//m_pPatchCommon->m_terrainCommonMat->Update(GetApp()->ddt / 1000.f);
-	//m_pPatchCommon->m_terrainCommonMat->CommitCommonShaderConstants();
+	m_pPatchCommon->m_terrainCommonMat->Update(GetApp()->ddt / 1000.f);
+	m_pPatchCommon->m_terrainCommonMat->CommitCommonShaderConstants();
 		
 
     // Go through all patches in the model
@@ -1228,7 +1228,10 @@ void CAdaptiveModelDX11Render::UpdateTerrain(ID3D11DeviceContext* pd3dImmediateC
 			continue;
 
 		const SPatchBoundingBox &PatchBoundBox = patchIt->pPatchQuadTreeNode->GetData().BoundBox;
+
+		AcquireSRWLockShared(&m_srwLock);
 		assert( PatchBoundBox.bIsBoxValid );
+		AcquireSRWLockShared(&m_srwLock);
 
 		// Determine patch bounding box visibility
 		patchIt->bIsPatchVisible = IsBoxVisible(PatchBoundBox);

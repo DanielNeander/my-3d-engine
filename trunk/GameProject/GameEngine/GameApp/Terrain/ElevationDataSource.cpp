@@ -143,7 +143,7 @@ CElevationDataSource::CElevationDataSource(LPCWSTR strSrcDemFile,
         throw std::exception("Patch size must be power of 2");
     }
 
-    V( CoInitialize(NULL) );
+     CoInitialize(NULL);
 
     // Create components to read 16-bit png data
     CComPtr<IWICImagingFactory> pFactory;
@@ -248,7 +248,7 @@ CElevationDataSource::CElevationDataSource(LPCWSTR strSrcDemFile,
     CalculateMinMaxElevations();
 
     // Calcualte world space error bounds
-    CalculatePatchErrorBounds();
+   CalculatePatchErrorBounds();
 }
 
 CElevationDataSource::~CElevationDataSource(void)

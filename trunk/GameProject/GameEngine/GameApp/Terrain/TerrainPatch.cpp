@@ -870,7 +870,7 @@ HRESULT CTerrainPatch::UpdateDeviceResources()
 
 	if( m_pPatchCommon->m_bAsyncModeWorkaround )
 	{
-		//SetupMaterial();
+		SetupMaterial();
 
 		/*extern DecorationSystem gDecoSys;
 		extern CAdaptiveModelDX11Render g_TerrainDX11Render;
