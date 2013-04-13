@@ -9,7 +9,6 @@
 #include <EngineCore/Util/GameLog.h>
 #include <EngineCore/Math/MathTools.h>
 #include <EngineCore/Util/U2WinFile.h>
-#include "EngineCore/TBB/TaskMgrTbb.h"
 
 // 유니코드 빌드 필요
 //#include "dxut/core/stdafx.h
@@ -104,8 +103,7 @@ CAdaptiveModelDX11Render g_TerrainDX11Render;
 NavigationMesh			NaviMesh;		/* our navigation mesh */
 
 
-
-	#pragma comment(lib, "TBBGraphicsSamples.lib")
+	
 	#pragma  comment(lib, "dinput8.lib")
 	#pragma  comment(lib, "Pdh.lib")
 
@@ -138,6 +136,7 @@ NavigationMesh			NaviMesh;		/* our navigation mesh */
 
 
 	#pragma comment( lib, "DXTCompressorDLL_2010D.lib")
+	#pragma comment(lib, "TBBGraphicsSamplesd.lib")
 
 	#pragma comment( lib, "BulletCollision_vs2010_debug.lib")
 	#pragma comment( lib, "BulletDynamics_vs2010_debug.lib")
@@ -206,6 +205,7 @@ NavigationMesh			NaviMesh;		/* our navigation mesh */
 	#pragma comment( lib, "tinyxml.lib" )
 
 	#pragma comment( lib, "DXTCompressorDLL_2010.lib")
+	#pragma comment(lib, "TBBGraphicsSamples.lib")
 
 	#pragma comment( lib, "BulletCollision_vs2010.lib")
 	#pragma comment( lib, "BulletDynamics_vs2010.lib")
@@ -813,7 +813,6 @@ bool App::init(){
 
 	useLocalFiles = true;
 
-	gTaskMgr.Init();
 	
 	lastTime = timeGetTime();
 
@@ -1312,7 +1311,6 @@ bool App::load()
 	EffectSys_ = new EffectSystem;
 	EffectSys_->LoadAll();
 
-
 	ID3D11Texture2D* pBackBuffer;
 	HRESULT hr = swapChain->GetBuffer( 0, __uuidof( *pBackBuffer ), ( LPVOID* )&pBackBuffer );	
 	D3D11_TEXTURE2D_DESC TexDesc;
@@ -1468,7 +1466,7 @@ bool App::load()
 				//gSun.m_vTarget = boundCenter;
 				//gSun.m_vTarget.y = g_TerrainRenderParams.m_fGlobalMinElevation;
 
-				//LoadSky();
+				LoadSky();
 				//LoadWater();
 			}
 		}
@@ -1592,7 +1590,6 @@ void App::drawFrame()
 	if(GetKeyDown('H')) 
 		bShowParticle = !bShowParticle;
 
-#if 0
 	g_time.MarkTimeThisTick();	
 	GameObjectManager::Get()->Update(fDeltaTime);
 	g_msgroute.DeliverDelayedMessages();
@@ -1601,7 +1598,7 @@ void App::drawFrame()
 	GetSceneRoot()->Update(fDeltaTime);
 	
 	gDecoSys.Update(fDeltaTime);
-#endif
+
 	const noVec3 eye = DefCam_->GetFrom();
 		
 	//if (loader)
@@ -1629,10 +1626,8 @@ void App::drawFrame()
 	//RenderParticles(_fLastUpdate);
 	bool bMoved = eye != DefCam_->GetFrom() ? true : false;	
 	//RenderTerrain2(bMoved, _fLastUpdate, fDeltaTime);	
-	UpdateSNBTerrain();
-
-	RenderSNBTerrain();	
-#if 0
+	UpdateSNBTerrain();	
+#if 1
 	if (AppSettings::RendererTypeEnum == FORWARD_RENDER) 	{			
 		//RenderLights(fDeltaTime);
 		//RenderWater(fDeltaTime);
@@ -1648,15 +1643,15 @@ void App::drawFrame()
 		//SetDefaultRenderTarget();			
 
 		if (AppSettings::EditModeEnum == EDIT_TERRAIN) 		{			
-			//RenderWaterCaustics();
-			//RenderPass_Reflection(fDeltaTime);			
+			RenderWaterCaustics();
+			RenderPass_Reflection(fDeltaTime);			
 			RenderPass_Main();
 			RenderSky(fDeltaTime);			
 			gSun.Apply(5);			
 			RenderSNBTerrain();	
 			gDecoSys.Render(fDeltaTime);
 			RenderMeshes(false);
-			//RenderWater(fDeltaTime);
+			RenderWater(fDeltaTime);
 
 		}
 		else if (AppSettings::EditModeEnum == EDIT_TEST_MODE) {
@@ -1701,7 +1696,7 @@ void App::drawFrame()
 
 #endif
 
-#if 0
+#if 1
 	ddray->begin(DU_DRAW_LINES_STRIP);
 
 	pickPos_ =		PickUtil::GetPickVert();	
