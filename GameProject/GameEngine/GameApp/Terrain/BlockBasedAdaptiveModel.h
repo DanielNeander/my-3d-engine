@@ -22,6 +22,7 @@
 #include "TerrainPatch.h"
 #include "EngineCore/TBB/TaskMgrTbb.h"
 
+
 #include <deque>
 #include <vector>
 
@@ -133,6 +134,7 @@ private:
 	CElevationDataSource *m_pDataSource; // Pointer to elevation data source
     CTriangDataSource *m_pTriangDataSource; // Pointer to triangulation data source
     const class CBlockBasedAdaptiveModel *m_pBlockBasedModel;
+
 };
 
 // Async task performing model coarsening
@@ -304,7 +306,8 @@ protected:
 	D3DXVECTOR4 m_vQuadTreePreviewScrPos; // Position of the mini map
 
 	float m_fViewportWidth, m_fViewportHeight; 
-
+		
+	mutable SRWLOCK	m_srwLock;
 private:
     // Calculates screen-space error bound for the specified patch
     float CalculatePatchScrSpaceErrorBound(const SPatchBoundingBox &PatchBoundBox,
@@ -338,4 +341,6 @@ private:
         SLevelAdaptiveTriangulationStat() : m_llTotalTriangles(0), TotalCompressedDataSize(0) {}
     };
     std::vector< SLevelAdaptiveTriangulationStat > m_AdaptiveTriangulationStat;
+
+
 };

@@ -102,6 +102,7 @@ void STDMETHODCALLTYPE CIncreaseLODTask::Execute()
             m_pBlockBasedModel->CreatePatch( CurrChildNode.GetData().m_pElevData.get(), 
                                              CurrChildNode.GetData().m_pAdaptiveTriangulation.get() );
 
+		
         float fPatchElevDataErrorBound = m_pDataSource->GetPatchElevDataErrorBound(CurrChildNode.GetPos()) * m_pBlockBasedModel->m_Params.m_fElevationScale;
         float fTriangulationError = 0.f;
         if( m_pTriangDataSource )
@@ -145,6 +146,7 @@ CBlockBasedAdaptiveModel::CBlockBasedAdaptiveModel(void) :
     D3DXMATRIX mDummyProj;
     D3DXMatrixIdentity(&mDummyProj);
     SetViewFrustumParams(1024, 768, mDummyProj);
+	InitializeSRWLock(&m_srwLock);
 }
 
 CBlockBasedAdaptiveModel::~CBlockBasedAdaptiveModel(void)
@@ -224,7 +226,9 @@ void CBlockBasedAdaptiveModel::CalculatePatchBoundingBox(const SQuadTreeNodeLoca
         std::swap( PatchBoundingBox.fMaxY, PatchBoundingBox.fMaxZ );
     }
 
+	::AcquireSRWLockShared(&m_srwLock);
     PatchBoundingBox.bIsBoxValid = true;
+	::ReleaseSRWLockShared(&m_srwLock);
 }
 
 static float GetDistanceToBox(const SPatchBoundingBox &BoundBox, 
@@ -325,7 +329,10 @@ inline void CBlockBasedAdaptiveModel::AddPatchToOptimalPatchesList(CPatchQuadTre
 float CBlockBasedAdaptiveModel::CalculatePatchScrSpaceErrorBound(const SPatchBoundingBox &PatchBoundBox,
                                                                  float fGuaranteedPatchErrorBound)
 {
+	AcquireSRWLockShared(&m_srwLock);
     float fDistanceToCamera = GetDistanceToBox(PatchBoundBox, m_vCameraPos);
+	ReleaseSRWLockShared(&m_srwLock);
+
     
     if( fDistanceToCamera == 0.f || fGuaranteedPatchErrorBound >= +FLT_MAX/2)
         return +FLT_MAX;
@@ -407,11 +414,17 @@ void CBlockBasedAdaptiveModel::RecursiveDetermineOptimalPatches(CPatchQuadTreeNo
 
     SPatchQuadTreeNodeData &data = PatchNode.GetData();
 
-    if( !data.BoundBox.bIsBoxValid )
+	AcquireSRWLockShared(&m_srwLock);
+    if( !data.BoundBox.bIsBoxValid ) {
+		ReleaseSRWLockShared(&m_srwLock);
         return;
-
+	}	
     data.m_fDistanceToCamera = GetDistanceToBox(data.BoundBox, m_vCameraPos);
+	ReleaseSRWLockShared(&m_srwLock);
+
+	AcquireSRWLockShared(&m_srwLock);
     data.m_fPatchScrSpaceError = CalculatePatchScrSpaceErrorBound(data.BoundBox, data.m_fGuaranteedPatchErrorBound);
+	ReleaseSRWLockShared(&m_srwLock);
     if( SPatchQuadTreeNodeData::TOO_COARSE_PATCH == data.Label )
     {
 		assert(!data.m_pIncreaseLODTask.get());
@@ -427,7 +440,11 @@ void CBlockBasedAdaptiveModel::RecursiveDetermineOptimalPatches(CPatchQuadTreeNo
                 assert( pDescendantNode[iChild]->GetData().Label == SPatchQuadTreeNodeData::OPTIMAL_PATCH );
 
             // Check the task's completion status
-		    if( data.m_pDecreaseLODTask->CheckCompletionStatus() )
+			AcquireSRWLockShared(&m_srwLock);
+			bool state = data.m_pDecreaseLODTask->CheckCompletionStatus();
+			ReleaseSRWLockShared(&m_srwLock);
+
+		    if( state )
 	        {
                 // If task is completed, destroy the node's descendants
 	            PatchNode.DestroyDescendants();
@@ -473,7 +490,9 @@ void CBlockBasedAdaptiveModel::RecursiveDetermineOptimalPatches(CPatchQuadTreeNo
                 // NOTE: IF SOME CHILD IS NOT MARKED AS OPTIMAL_PATCH AND WE PERFORM THE DECREASE
                 // LOD TASK, IT COULD CAUSE ERROR because all decrease LOD tasks must be completed 
                 // for all descendants first
+				AcquireSRWLockShared(&m_srwLock);
                 data.m_pDecreaseLODTask.reset( new CDecreaseLODTask(PatchNode, this) );
+				ReleaseSRWLockShared(&m_srwLock);
                 // Register task in the manager
                 if( !AddTask(data.m_pDecreaseLODTask.get()) )
                     // If task failed to create, release it and repeat attempt next time
@@ -503,7 +522,10 @@ void CBlockBasedAdaptiveModel::RecursiveDetermineOptimalPatches(CPatchQuadTreeNo
         if( data.m_pIncreaseLODTask.get() )
 	    {
             // Check if the task is completed
-		    if( data.m_pIncreaseLODTask->CheckCompletionStatus() )
+			AcquireSRWLockShared(&m_srwLock);
+			bool state = data.m_pIncreaseLODTask->CheckCompletionStatus();
+			ReleaseSRWLockShared(&m_srwLock);
+		    if(state)
 		    {
 			    std::auto_ptr<CPatchQuadTreeNode> descendantNodes[4];
 			    data.m_pIncreaseLODTask->DetachFloatingDescendants(descendantNodes[0], descendantNodes[1], descendantNodes[2], descendantNodes[3]);
@@ -547,7 +569,10 @@ void CBlockBasedAdaptiveModel::RecursiveDetermineOptimalPatches(CPatchQuadTreeNo
 		    {
 			    std::auto_ptr<CPatchQuadTreeNode> pDescendants[4];
 			    PatchNode.CreateFloatingDescendants(pDescendants[0], pDescendants[1], pDescendants[2], pDescendants[3]);
+				
+				AcquireSRWLockShared(&m_srwLock);
                 data.m_pIncreaseLODTask.reset( new CIncreaseLODTask(pDescendants, m_pDataSource, m_pTriangDataSource, this) );
+				ReleaseSRWLockShared(&m_srwLock);
 			    if( !AddTask(data.m_pIncreaseLODTask.get()) )
                     // If task failed to create, release it and repeat attempt next time
                     data.m_pIncreaseLODTask.reset();
